@@ -560,3 +560,36 @@
   message: 'Authentication Event',
   timestamp: '2025-12-27 19:58:52'
 }
+{
+  service: 'campusevents-api',
+  action: 'login',
+  userId: new ObjectId('694fe9ca75a49520dbc19225'),
+  success: false,
+  email: 'priyanshugurdekar223@gmail.com',
+  reason: 'invalid_password',
+  level: 'info',
+  message: 'Authentication Event',
+  timestamp: '2025-12-27 20:50:34'
+}
+{
+  service: 'campusevents-api',
+  action: 'login',
+  userId: new ObjectId('694fe9ca75a49520dbc19225'),
+  success: false,
+  email: 'priyanshugurdekar223@gmail.com',
+  reason: 'invalid_password',
+  level: 'info',
+  message: 'Authentication Event',
+  timestamp: '2025-12-27 20:51:11'
+}
+{
+  service: 'campusevents-api',
+  action: 'login',
+  userId: new ObjectId('694fe9ca75a49520dbc19225'),
+  success: false,
+  email: 'priyanshugurdekar223@gmail.com',
+  reason: 'invalid_password',
+  level: 'info',
+  message: 'Authentication Event',
+  timestamp: '2025-12-27 20:52:31'
+}
