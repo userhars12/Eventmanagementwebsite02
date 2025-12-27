@@ -1,0 +1,382 @@
+{
+  service: 'campusevents-api',
+  level: 'error',
+  message: 'Failed to initialize email transporter: nodemailer.createTransporter is not a function',
+  stack: 'TypeError: nodemailer.createTransporter is not a function\n' +
+    '    at new EmailService (C:\\Users\\priya\\harshitaaas event\\utils\\email.js:7:37)\n' +
+    '    at Object.<anonymous> (C:\\Users\\priya\\harshitaaas event\\utils\\email.js:482:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1760:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1892:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1480:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1299:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:328:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1503:12)\n' +
+    '    at require (node:internal/modules/helpers:152:16)',
+  timestamp: '2025-12-27 14:20:00'
+}
+{
+  service: 'campusevents-api',
+  level: 'error',
+  message: 'Failed to initialize email transporter: nodemailer.createTransporter is not a function',
+  stack: 'TypeError: nodemailer.createTransporter is not a function\n' +
+    '    at new EmailService (C:\\Users\\priya\\harshitaaas event\\utils\\email.js:7:37)\n' +
+    '    at Object.<anonymous> (C:\\Users\\priya\\harshitaaas event\\utils\\email.js:482:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1760:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1892:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1480:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1299:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:328:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1503:12)\n' +
+    '    at require (node:internal/modules/helpers:152:16)',
+  timestamp: '2025-12-27 14:27:33'
+}
+{
+  service: 'campusevents-api',
+  level: 'error',
+  message: 'Failed to initialize email transporter: nodemailer.createTransporter is not a function',
+  stack: 'TypeError: nodemailer.createTransporter is not a function\n' +
+    '    at new EmailService (C:\\Users\\priya\\harshitaaas event\\utils\\email.js:7:37)\n' +
+    '    at Object.<anonymous> (C:\\Users\\priya\\harshitaaas event\\utils\\email.js:482:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1760:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1892:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1480:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1299:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:328:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1503:12)\n' +
+    '    at require (node:internal/modules/helpers:152:16)',
+  timestamp: '2025-12-27 14:28:14'
+}
+{
+  service: 'campusevents-api',
+  level: 'error',
+  message: 'Failed to initialize email transporter: nodemailer.createTransporter is not a function',
+  stack: 'TypeError: nodemailer.createTransporter is not a function\n' +
+    '    at new EmailService (C:\\Users\\priya\\harshitaaas event\\utils\\email.js:7:37)\n' +
+    '    at Object.<anonymous> (C:\\Users\\priya\\harshitaaas event\\utils\\email.js:482:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1760:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1892:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1480:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1299:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:328:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1503:12)\n' +
+    '    at require (node:internal/modules/helpers:152:16)',
+  timestamp: '2025-12-27 14:29:16'
+}
+{
+  service: 'campusevents-api',
+  level: 'error',
+  message: 'Failed to initialize email transporter: nodemailer.createTransporter is not a function',
+  stack: 'TypeError: nodemailer.createTransporter is not a function\n' +
+    '    at new EmailService (C:\\Users\\priya\\harshitaaas event\\utils\\email.js:7:37)\n' +
+    '    at Object.<anonymous> (C:\\Users\\priya\\harshitaaas event\\utils\\email.js:482:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1760:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1892:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1480:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1299:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:328:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1503:12)\n' +
+    '    at require (node:internal/modules/helpers:152:16)',
+  timestamp: '2025-12-27 14:29:57'
+}
+{
+  service: 'campusevents-api',
+  level: 'error',
+  message: 'Failed to initialize email transporter: nodemailer.createTransporter is not a function',
+  stack: 'TypeError: nodemailer.createTransporter is not a function\n' +
+    '    at new EmailService (C:\\Users\\priya\\harshitaaas event\\utils\\email.js:7:37)\n' +
+    '    at Object.<anonymous> (C:\\Users\\priya\\harshitaaas event\\utils\\email.js:482:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1760:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1892:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1480:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1299:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:328:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1503:12)\n' +
+    '    at require (node:internal/modules/helpers:152:16)',
+  timestamp: '2025-12-27 14:31:37'
+}
+{
+  service: 'campusevents-api',
+  level: 'error',
+  message: 'Failed to initialize email transporter: nodemailer.createTransporter is not a function',
+  stack: 'TypeError: nodemailer.createTransporter is not a function\n' +
+    '    at new EmailService (C:\\Users\\priya\\harshitaaas event\\utils\\email.js:7:37)\n' +
+    '    at Object.<anonymous> (C:\\Users\\priya\\harshitaaas event\\utils\\email.js:482:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1760:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1892:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1480:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1299:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:328:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1503:12)\n' +
+    '    at require (node:internal/modules/helpers:152:16)',
+  timestamp: '2025-12-27 14:57:11'
+}
+{
+  service: 'campusevents-api',
+  level: 'error',
+  message: 'Failed to initialize email transporter: nodemailer.createTransporter is not a function',
+  stack: 'TypeError: nodemailer.createTransporter is not a function\n' +
+    '    at new EmailService (C:\\Users\\priya\\harshitaaas event\\utils\\email.js:7:37)\n' +
+    '    at Object.<anonymous> (C:\\Users\\priya\\harshitaaas event\\utils\\email.js:482:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1760:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1892:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1480:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1299:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:328:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1503:12)\n' +
+    '    at require (node:internal/modules/helpers:152:16)',
+  timestamp: '2025-12-27 18:04:42'
+}
+{
+  service: 'campusevents-api',
+  code: 'EAUTH',
+  response: '535-5.7.8 Username and Password not accepted. For more information, go to\n' +
+    '535 5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-34e92227d31sm23020539a91.12 - gsmtp',
+  responseCode: 535,
+  command: 'AUTH PLAIN',
+  level: 'error',
+  message: 'Email configuration error: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n' +
+    '535 5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-34e92227d31sm23020539a91.12 - gsmtp',
+  stack: 'Error: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n' +
+    '535 5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-34e92227d31sm23020539a91.12 - gsmtp\n' +
+    '    at SMTPConnection._formatError (C:\\Users\\priya\\harshitaaas event\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:809:19)\n' +
+    '    at SMTPConnection._actionAUTHComplete (C:\\Users\\priya\\harshitaaas event\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:1617:34)\n' +
+    '    at SMTPConnection.<anonymous> (C:\\Users\\priya\\harshitaaas event\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:556:26)\n' +
+    '    at SMTPConnection._processResponse (C:\\Users\\priya\\harshitaaas event\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:993:20)\n' +
+    '    at SMTPConnection._onData (C:\\Users\\priya\\harshitaaas event\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:774:14)\n' +
+    '    at SMTPConnection._onSocketData (C:\\Users\\priya\\harshitaaas event\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:195:44)\n' +
+    '    at TLSSocket.emit (node:events:508:28)\n' +
+    '    at addChunk (node:internal/streams/readable:559:12)\n' +
+    '    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)\n' +
+    '    at Readable.push (node:internal/streams/readable:390:5)',
+  timestamp: '2025-12-27 18:36:14'
+}
+{
+  service: 'campusevents-api',
+  code: 'EAUTH',
+  response: '535-5.7.8 Username and Password not accepted. For more information, go to\n' +
+    '535 5.7.8  https://support.google.com/mail/?p=BadCredentials 41be03b00d2f7-c1e7961fbb9sm21223108a12.2 - gsmtp',
+  responseCode: 535,
+  command: 'AUTH PLAIN',
+  level: 'error',
+  message: 'Email sending failed: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n' +
+    '535 5.7.8  https://support.google.com/mail/?p=BadCredentials 41be03b00d2f7-c1e7961fbb9sm21223108a12.2 - gsmtp',
+  stack: 'Error: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n' +
+    '535 5.7.8  https://support.google.com/mail/?p=BadCredentials 41be03b00d2f7-c1e7961fbb9sm21223108a12.2 - gsmtp\n' +
+    '    at SMTPConnection._formatError (C:\\Users\\priya\\harshitaaas event\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:809:19)\n' +
+    '    at SMTPConnection._actionAUTHComplete (C:\\Users\\priya\\harshitaaas event\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:1617:34)\n' +
+    '    at SMTPConnection.<anonymous> (C:\\Users\\priya\\harshitaaas event\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:556:26)\n' +
+    '    at SMTPConnection._processResponse (C:\\Users\\priya\\harshitaaas event\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:993:20)\n' +
+    '    at SMTPConnection._onData (C:\\Users\\priya\\harshitaaas event\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:774:14)\n' +
+    '    at SMTPConnection._onSocketData (C:\\Users\\priya\\harshitaaas event\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:195:44)\n' +
+    '    at TLSSocket.emit (node:events:508:28)\n' +
+    '    at addChunk (node:internal/streams/readable:559:12)\n' +
+    '    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)\n' +
+    '    at Readable.push (node:internal/streams/readable:390:5)',
+  timestamp: '2025-12-27 18:41:10'
+}
+{
+  service: 'campusevents-api',
+  level: 'error',
+  message: 'Failed to send verification email: Email could not be sent',
+  stack: 'Error: Email could not be sent\n' +
+    '    at EmailService.sendEmail (C:\\Users\\priya\\harshitaaas event\\utils\\email.js:65:13)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n' +
+    '    at async C:\\Users\\priya\\harshitaaas event\\routes\\auth.js:83:7',
+  timestamp: '2025-12-27 18:41:10'
+}
+{
+  service: 'campusevents-api',
+  code: 'EAUTH',
+  response: '535-5.7.8 Username and Password not accepted. For more information, go to\n' +
+    '535 5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-34e920c9a7csm22848341a91.0 - gsmtp',
+  responseCode: 535,
+  command: 'AUTH PLAIN',
+  level: 'error',
+  message: 'Email configuration error: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n' +
+    '535 5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-34e920c9a7csm22848341a91.0 - gsmtp',
+  stack: 'Error: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n' +
+    '535 5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-34e920c9a7csm22848341a91.0 - gsmtp\n' +
+    '    at SMTPConnection._formatError (C:\\Users\\priya\\harshitaaas event\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:809:19)\n' +
+    '    at SMTPConnection._actionAUTHComplete (C:\\Users\\priya\\harshitaaas event\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:1617:34)\n' +
+    '    at SMTPConnection.<anonymous> (C:\\Users\\priya\\harshitaaas event\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:556:26)\n' +
+    '    at SMTPConnection._processResponse (C:\\Users\\priya\\harshitaaas event\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:993:20)\n' +
+    '    at SMTPConnection._onData (C:\\Users\\priya\\harshitaaas event\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:774:14)\n' +
+    '    at SMTPConnection._onSocketData (C:\\Users\\priya\\harshitaaas event\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:195:44)\n' +
+    '    at TLSSocket.emit (node:events:508:28)\n' +
+    '    at addChunk (node:internal/streams/readable:559:12)\n' +
+    '    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)\n' +
+    '    at Readable.push (node:internal/streams/readable:390:5)',
+  timestamp: '2025-12-27 18:42:23'
+}
+{
+  service: 'campusevents-api',
+  code: 'EAUTH',
+  response: '535-5.7.8 Username and Password not accepted. For more information, go to\n' +
+    '535 5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-34e921b39dfsm23097854a91.8 - gsmtp',
+  responseCode: 535,
+  command: 'AUTH PLAIN',
+  level: 'error',
+  message: 'Email configuration error: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n' +
+    '535 5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-34e921b39dfsm23097854a91.8 - gsmtp',
+  stack: 'Error: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n' +
+    '535 5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-34e921b39dfsm23097854a91.8 - gsmtp\n' +
+    '    at SMTPConnection._formatError (C:\\Users\\priya\\harshitaaas event\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:809:19)\n' +
+    '    at SMTPConnection._actionAUTHComplete (C:\\Users\\priya\\harshitaaas event\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:1617:34)\n' +
+    '    at SMTPConnection.<anonymous> (C:\\Users\\priya\\harshitaaas event\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:556:26)\n' +
+    '    at SMTPConnection._processResponse (C:\\Users\\priya\\harshitaaas event\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:993:20)\n' +
+    '    at SMTPConnection._onData (C:\\Users\\priya\\harshitaaas event\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:774:14)\n' +
+    '    at SMTPConnection._onSocketData (C:\\Users\\priya\\harshitaaas event\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:195:44)\n' +
+    '    at TLSSocket.emit (node:events:508:28)\n' +
+    '    at addChunk (node:internal/streams/readable:559:12)\n' +
+    '    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)\n' +
+    '    at Readable.push (node:internal/streams/readable:390:5)',
+  timestamp: '2025-12-27 18:44:04'
+}
+{
+  service: 'campusevents-api',
+  code: 'EAUTH',
+  response: '535-5.7.8 Username and Password not accepted. For more information, go to\n' +
+    '535 5.7.8  https://support.google.com/mail/?p=BadCredentials 41be03b00d2f7-c1e7c7263a3sm21103773a12.32 - gsmtp',
+  responseCode: 535,
+  command: 'AUTH PLAIN',
+  level: 'error',
+  message: 'Email configuration error: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n' +
+    '535 5.7.8  https://support.google.com/mail/?p=BadCredentials 41be03b00d2f7-c1e7c7263a3sm21103773a12.32 - gsmtp',
+  stack: 'Error: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n' +
+    '535 5.7.8  https://support.google.com/mail/?p=BadCredentials 41be03b00d2f7-c1e7c7263a3sm21103773a12.32 - gsmtp\n' +
+    '    at SMTPConnection._formatError (C:\\Users\\priya\\harshitaaas event\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:809:19)\n' +
+    '    at SMTPConnection._actionAUTHComplete (C:\\Users\\priya\\harshitaaas event\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:1617:34)\n' +
+    '    at SMTPConnection.<anonymous> (C:\\Users\\priya\\harshitaaas event\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:556:26)\n' +
+    '    at SMTPConnection._processResponse (C:\\Users\\priya\\harshitaaas event\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:993:20)\n' +
+    '    at SMTPConnection._onData (C:\\Users\\priya\\harshitaaas event\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:774:14)\n' +
+    '    at SMTPConnection._onSocketData (C:\\Users\\priya\\harshitaaas event\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:195:44)\n' +
+    '    at TLSSocket.emit (node:events:508:28)\n' +
+    '    at addChunk (node:internal/streams/readable:559:12)\n' +
+    '    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)\n' +
+    '    at Readable.push (node:internal/streams/readable:390:5)',
+  timestamp: '2025-12-27 19:16:35'
+}
+{
+  service: 'campusevents-api',
+  code: 'EAUTH',
+  response: '535-5.7.8 Username and Password not accepted. For more information, go to\n' +
+    '535 5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-34e70d4f887sm26370699a91.3 - gsmtp',
+  responseCode: 535,
+  command: 'AUTH PLAIN',
+  level: 'error',
+  message: 'Email configuration error: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n' +
+    '535 5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-34e70d4f887sm26370699a91.3 - gsmtp',
+  stack: 'Error: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n' +
+    '535 5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-34e70d4f887sm26370699a91.3 - gsmtp\n' +
+    '    at SMTPConnection._formatError (C:\\Users\\priya\\harshitaaas event\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:809:19)\n' +
+    '    at SMTPConnection._actionAUTHComplete (C:\\Users\\priya\\harshitaaas event\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:1617:34)\n' +
+    '    at SMTPConnection.<anonymous> (C:\\Users\\priya\\harshitaaas event\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:556:26)\n' +
+    '    at SMTPConnection._processResponse (C:\\Users\\priya\\harshitaaas event\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:993:20)\n' +
+    '    at SMTPConnection._onData (C:\\Users\\priya\\harshitaaas event\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:774:14)\n' +
+    '    at SMTPConnection._onSocketData (C:\\Users\\priya\\harshitaaas event\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:195:44)\n' +
+    '    at TLSSocket.emit (node:events:508:28)\n' +
+    '    at addChunk (node:internal/streams/readable:559:12)\n' +
+    '    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)\n' +
+    '    at Readable.push (node:internal/streams/readable:390:5)',
+  timestamp: '2025-12-27 19:17:23'
+}
+{
+  service: 'campusevents-api',
+  code: 'EAUTH',
+  response: '535-5.7.8 Username and Password not accepted. For more information, go to\n' +
+    '535 5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-2a2f3c828e6sm227643865ad.24 - gsmtp',
+  responseCode: 535,
+  command: 'AUTH PLAIN',
+  level: 'error',
+  message: 'Email configuration error: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n' +
+    '535 5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-2a2f3c828e6sm227643865ad.24 - gsmtp',
+  stack: 'Error: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n' +
+    '535 5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-2a2f3c828e6sm227643865ad.24 - gsmtp\n' +
+    '    at SMTPConnection._formatError (C:\\Users\\priya\\harshitaaas event\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:809:19)\n' +
+    '    at SMTPConnection._actionAUTHComplete (C:\\Users\\priya\\harshitaaas event\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:1617:34)\n' +
+    '    at SMTPConnection.<anonymous> (C:\\Users\\priya\\harshitaaas event\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:556:26)\n' +
+    '    at SMTPConnection._processResponse (C:\\Users\\priya\\harshitaaas event\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:993:20)\n' +
+    '    at SMTPConnection._onData (C:\\Users\\priya\\harshitaaas event\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:774:14)\n' +
+    '    at SMTPConnection._onSocketData (C:\\Users\\priya\\harshitaaas event\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:195:44)\n' +
+    '    at TLSSocket.emit (node:events:508:28)\n' +
+    '    at addChunk (node:internal/streams/readable:559:12)\n' +
+    '    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)\n' +
+    '    at Readable.push (node:internal/streams/readable:390:5)',
+  timestamp: '2025-12-27 19:43:30'
+}
+{
+  service: 'campusevents-api',
+  code: 'EAUTH',
+  response: '535-5.7.8 Username and Password not accepted. For more information, go to\n' +
+    '535 5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-2a2f3d5d6e4sm230361605ad.75 - gsmtp',
+  responseCode: 535,
+  command: 'AUTH PLAIN',
+  level: 'error',
+  message: 'Email sending failed: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n' +
+    '535 5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-2a2f3d5d6e4sm230361605ad.75 - gsmtp',
+  stack: 'Error: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n' +
+    '535 5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-2a2f3d5d6e4sm230361605ad.75 - gsmtp\n' +
+    '    at SMTPConnection._formatError (C:\\Users\\priya\\harshitaaas event\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:809:19)\n' +
+    '    at SMTPConnection._actionAUTHComplete (C:\\Users\\priya\\harshitaaas event\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:1617:34)\n' +
+    '    at SMTPConnection.<anonymous> (C:\\Users\\priya\\harshitaaas event\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:556:26)\n' +
+    '    at SMTPConnection._processResponse (C:\\Users\\priya\\harshitaaas event\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:993:20)\n' +
+    '    at SMTPConnection._onData (C:\\Users\\priya\\harshitaaas event\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:774:14)\n' +
+    '    at SMTPConnection._onSocketData (C:\\Users\\priya\\harshitaaas event\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:195:44)\n' +
+    '    at TLSSocket.emit (node:events:508:28)\n' +
+    '    at addChunk (node:internal/streams/readable:559:12)\n' +
+    '    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)\n' +
+    '    at Readable.push (node:internal/streams/readable:390:5)',
+  timestamp: '2025-12-27 19:44:37'
+}
+{
+  service: 'campusevents-api',
+  level: 'error',
+  message: 'Failed to send verification email: Email could not be sent',
+  stack: 'Error: Email could not be sent\n' +
+    '    at EmailService.sendEmail (C:\\Users\\priya\\harshitaaas event\\utils\\email.js:65:13)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n' +
+    '    at async C:\\Users\\priya\\harshitaaas event\\routes\\auth.js:83:7',
+  timestamp: '2025-12-27 19:44:37'
+}
+{
+  service: 'campusevents-api',
+  code: 'EAUTH',
+  response: '535-5.7.8 Username and Password not accepted. For more information, go to\n' +
+    '535 5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-7ff7ae354easm24769763b3a.16 - gsmtp',
+  responseCode: 535,
+  command: 'AUTH PLAIN',
+  level: 'error',
+  message: 'Email sending failed: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n' +
+    '535 5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-7ff7ae354easm24769763b3a.16 - gsmtp',
+  stack: 'Error: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n' +
+    '535 5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-7ff7ae354easm24769763b3a.16 - gsmtp\n' +
+    '    at SMTPConnection._formatError (C:\\Users\\priya\\harshitaaas event\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:809:19)\n' +
+    '    at SMTPConnection._actionAUTHComplete (C:\\Users\\priya\\harshitaaas event\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:1617:34)\n' +
+    '    at SMTPConnection.<anonymous> (C:\\Users\\priya\\harshitaaas event\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:556:26)\n' +
+    '    at SMTPConnection._processResponse (C:\\Users\\priya\\harshitaaas event\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:993:20)\n' +
+    '    at SMTPConnection._onData (C:\\Users\\priya\\harshitaaas event\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:774:14)\n' +
+    '    at SMTPConnection._onSocketData (C:\\Users\\priya\\harshitaaas event\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:195:44)\n' +
+    '    at TLSSocket.emit (node:events:508:28)\n' +
+    '    at addChunk (node:internal/streams/readable:559:12)\n' +
+    '    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)\n' +
+    '    at Readable.push (node:internal/streams/readable:390:5)',
+  timestamp: '2025-12-27 19:58:52'
+}
+{
+  service: 'campusevents-api',
+  level: 'error',
+  message: 'Failed to send verification email: Email could not be sent',
+  stack: 'Error: Email could not be sent\n' +
+    '    at EmailService.sendEmail (C:\\Users\\priya\\harshitaaas event\\utils\\email.js:65:13)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n' +
+    '    at async C:\\Users\\priya\\harshitaaas event\\routes\\auth.js:83:7',
+  timestamp: '2025-12-27 19:58:52'
+}

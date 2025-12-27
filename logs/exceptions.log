@@ -1,0 +1,4040 @@
+{
+  error: TypeError: nodemailer.createTransporter is not a function
+      at new EmailService (C:\Users\priya\harshitaaas event\utils\email.js:6:35)
+      at Object.<anonymous> (C:\Users\priya\harshitaaas event\utils\email.js:469:18)
+      at Module._compile (node:internal/modules/cjs/loader:1760:14)
+      at Object..js (node:internal/modules/cjs/loader:1892:10)
+      at Module.load (node:internal/modules/cjs/loader:1480:32)
+      at Module._load (node:internal/modules/cjs/loader:1299:12)
+      at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+      at Module.require (node:internal/modules/cjs/loader:1503:12)
+      at require (node:internal/modules/helpers:152:16),
+  level: 'error',
+  message: 'uncaughtException: nodemailer.createTransporter is not a function\n' +
+    'TypeError: nodemailer.createTransporter is not a function\n' +
+    '    at new EmailService (C:\\Users\\priya\\harshitaaas event\\utils\\email.js:6:35)\n' +
+    '    at Object.<anonymous> (C:\\Users\\priya\\harshitaaas event\\utils\\email.js:469:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1760:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1892:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1480:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1299:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:328:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1503:12)\n' +
+    '    at require (node:internal/modules/helpers:152:16)',
+  stack: 'TypeError: nodemailer.createTransporter is not a function\n' +
+    '    at new EmailService (C:\\Users\\priya\\harshitaaas event\\utils\\email.js:6:35)\n' +
+    '    at Object.<anonymous> (C:\\Users\\priya\\harshitaaas event\\utils\\email.js:469:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1760:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1892:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1480:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1299:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:328:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1503:12)\n' +
+    '    at require (node:internal/modules/helpers:152:16)',
+  exception: true,
+  date: 'Sat Dec 27 2025 00:16:42 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 29552,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\priya\\harshitaaas event',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v25.2.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\priya\\harshitaaas event\\server.js'
+    ],
+    memoryUsage: {
+      rss: 89149440,
+      heapTotal: 42258432,
+      heapUsed: 33120088,
+      external: 20767131,
+      arrayBuffers: 18264560
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 271501.093 },
+  trace: [
+    {
+      column: 35,
+      file: 'C:\\Users\\priya\\harshitaaas event\\utils\\email.js',
+      function: 'new EmailService',
+      line: 6,
+      method: null,
+      native: false
+    },
+    {
+      column: 18,
+      file: 'C:\\Users\\priya\\harshitaaas event\\utils\\email.js',
+      function: null,
+      line: 469,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1760,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Object..js',
+      line: 1892,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1480,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1299,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 328,
+      method: 'traceSync',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 245,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1503,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 16,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 152,
+      method: null,
+      native: false
+    }
+  ],
+  service: 'campusevents-api',
+  timestamp: '2025-12-27 00:16:42'
+}
+{
+  error: TypeError: nodemailer.createTransporter is not a function
+      at new EmailService (C:\Users\priya\harshitaaas event\utils\email.js:6:35)
+      at Object.<anonymous> (C:\Users\priya\harshitaaas event\utils\email.js:469:18)
+      at Module._compile (node:internal/modules/cjs/loader:1760:14)
+      at Object..js (node:internal/modules/cjs/loader:1892:10)
+      at Module.load (node:internal/modules/cjs/loader:1480:32)
+      at Module._load (node:internal/modules/cjs/loader:1299:12)
+      at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+      at Module.require (node:internal/modules/cjs/loader:1503:12)
+      at require (node:internal/modules/helpers:152:16),
+  level: 'error',
+  message: 'uncaughtException: nodemailer.createTransporter is not a function\n' +
+    'TypeError: nodemailer.createTransporter is not a function\n' +
+    '    at new EmailService (C:\\Users\\priya\\harshitaaas event\\utils\\email.js:6:35)\n' +
+    '    at Object.<anonymous> (C:\\Users\\priya\\harshitaaas event\\utils\\email.js:469:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1760:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1892:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1480:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1299:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:328:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1503:12)\n' +
+    '    at require (node:internal/modules/helpers:152:16)',
+  stack: 'TypeError: nodemailer.createTransporter is not a function\n' +
+    '    at new EmailService (C:\\Users\\priya\\harshitaaas event\\utils\\email.js:6:35)\n' +
+    '    at Object.<anonymous> (C:\\Users\\priya\\harshitaaas event\\utils\\email.js:469:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1760:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1892:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1480:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1299:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:328:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1503:12)\n' +
+    '    at require (node:internal/modules/helpers:152:16)',
+  exception: true,
+  date: 'Sat Dec 27 2025 00:18:44 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 25696,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\priya\\harshitaaas event',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v25.2.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\priya\\harshitaaas event\\server.js'
+    ],
+    memoryUsage: {
+      rss: 88928256,
+      heapTotal: 42520576,
+      heapUsed: 33231752,
+      external: 20767131,
+      arrayBuffers: 18264560
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 271623.062 },
+  trace: [
+    {
+      column: 35,
+      file: 'C:\\Users\\priya\\harshitaaas event\\utils\\email.js',
+      function: 'new EmailService',
+      line: 6,
+      method: null,
+      native: false
+    },
+    {
+      column: 18,
+      file: 'C:\\Users\\priya\\harshitaaas event\\utils\\email.js',
+      function: null,
+      line: 469,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1760,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Object..js',
+      line: 1892,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1480,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1299,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 328,
+      method: 'traceSync',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 245,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1503,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 16,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 152,
+      method: null,
+      native: false
+    }
+  ],
+  service: 'campusevents-api',
+  timestamp: '2025-12-27 00:18:44'
+}
+{
+  error: TypeError: nodemailer.createTransporter is not a function
+      at new EmailService (C:\Users\priya\harshitaaas event\utils\email.js:6:35)
+      at Object.<anonymous> (C:\Users\priya\harshitaaas event\utils\email.js:469:18)
+      at Module._compile (node:internal/modules/cjs/loader:1760:14)
+      at Object..js (node:internal/modules/cjs/loader:1892:10)
+      at Module.load (node:internal/modules/cjs/loader:1480:32)
+      at Module._load (node:internal/modules/cjs/loader:1299:12)
+      at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+      at Module.require (node:internal/modules/cjs/loader:1503:12)
+      at require (node:internal/modules/helpers:152:16),
+  level: 'error',
+  message: 'uncaughtException: nodemailer.createTransporter is not a function\n' +
+    'TypeError: nodemailer.createTransporter is not a function\n' +
+    '    at new EmailService (C:\\Users\\priya\\harshitaaas event\\utils\\email.js:6:35)\n' +
+    '    at Object.<anonymous> (C:\\Users\\priya\\harshitaaas event\\utils\\email.js:469:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1760:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1892:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1480:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1299:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:328:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1503:12)\n' +
+    '    at require (node:internal/modules/helpers:152:16)',
+  stack: 'TypeError: nodemailer.createTransporter is not a function\n' +
+    '    at new EmailService (C:\\Users\\priya\\harshitaaas event\\utils\\email.js:6:35)\n' +
+    '    at Object.<anonymous> (C:\\Users\\priya\\harshitaaas event\\utils\\email.js:469:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1760:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1892:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1480:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1299:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:328:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1503:12)\n' +
+    '    at require (node:internal/modules/helpers:152:16)',
+  exception: true,
+  date: 'Sat Dec 27 2025 00:20:11 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 29352,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\priya\\harshitaaas event',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v25.2.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\priya\\harshitaaas event\\server.js'
+    ],
+    memoryUsage: {
+      rss: 87441408,
+      heapTotal: 42258432,
+      heapUsed: 33181720,
+      external: 20767131,
+      arrayBuffers: 18264560
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 271709.703 },
+  trace: [
+    {
+      column: 35,
+      file: 'C:\\Users\\priya\\harshitaaas event\\utils\\email.js',
+      function: 'new EmailService',
+      line: 6,
+      method: null,
+      native: false
+    },
+    {
+      column: 18,
+      file: 'C:\\Users\\priya\\harshitaaas event\\utils\\email.js',
+      function: null,
+      line: 469,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1760,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Object..js',
+      line: 1892,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1480,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1299,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 328,
+      method: 'traceSync',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 245,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1503,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 16,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 152,
+      method: null,
+      native: false
+    }
+  ],
+  service: 'campusevents-api',
+  timestamp: '2025-12-27 00:20:11'
+}
+{
+  error: TypeError: nodemailer.createTransporter is not a function
+      at new EmailService (C:\Users\priya\harshitaaas event\utils\email.js:6:35)
+      at Object.<anonymous> (C:\Users\priya\harshitaaas event\utils\email.js:469:18)
+      at Module._compile (node:internal/modules/cjs/loader:1760:14)
+      at Object..js (node:internal/modules/cjs/loader:1892:10)
+      at Module.load (node:internal/modules/cjs/loader:1480:32)
+      at Module._load (node:internal/modules/cjs/loader:1299:12)
+      at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+      at Module.require (node:internal/modules/cjs/loader:1503:12)
+      at require (node:internal/modules/helpers:152:16),
+  level: 'error',
+  message: 'uncaughtException: nodemailer.createTransporter is not a function\n' +
+    'TypeError: nodemailer.createTransporter is not a function\n' +
+    '    at new EmailService (C:\\Users\\priya\\harshitaaas event\\utils\\email.js:6:35)\n' +
+    '    at Object.<anonymous> (C:\\Users\\priya\\harshitaaas event\\utils\\email.js:469:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1760:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1892:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1480:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1299:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:328:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1503:12)\n' +
+    '    at require (node:internal/modules/helpers:152:16)',
+  stack: 'TypeError: nodemailer.createTransporter is not a function\n' +
+    '    at new EmailService (C:\\Users\\priya\\harshitaaas event\\utils\\email.js:6:35)\n' +
+    '    at Object.<anonymous> (C:\\Users\\priya\\harshitaaas event\\utils\\email.js:469:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1760:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1892:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1480:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1299:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:328:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1503:12)\n' +
+    '    at require (node:internal/modules/helpers:152:16)',
+  exception: true,
+  date: 'Sat Dec 27 2025 00:24:47 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 11740,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\priya\\harshitaaas event',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v25.2.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\priya\\harshitaaas event\\server.js'
+    ],
+    memoryUsage: {
+      rss: 89296896,
+      heapTotal: 42258432,
+      heapUsed: 33145728,
+      external: 20767131,
+      arrayBuffers: 18264560
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 271985.687 },
+  trace: [
+    {
+      column: 35,
+      file: 'C:\\Users\\priya\\harshitaaas event\\utils\\email.js',
+      function: 'new EmailService',
+      line: 6,
+      method: null,
+      native: false
+    },
+    {
+      column: 18,
+      file: 'C:\\Users\\priya\\harshitaaas event\\utils\\email.js',
+      function: null,
+      line: 469,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1760,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Object..js',
+      line: 1892,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1480,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1299,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 328,
+      method: 'traceSync',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 245,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1503,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 16,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 152,
+      method: null,
+      native: false
+    }
+  ],
+  service: 'campusevents-api',
+  timestamp: '2025-12-27 00:24:47'
+}
+{
+  error: TypeError: nodemailer.createTransporter is not a function
+      at new EmailService (C:\Users\priya\harshitaaas event\utils\email.js:6:35)
+      at Object.<anonymous> (C:\Users\priya\harshitaaas event\utils\email.js:469:18)
+      at Module._compile (node:internal/modules/cjs/loader:1760:14)
+      at Object..js (node:internal/modules/cjs/loader:1892:10)
+      at Module.load (node:internal/modules/cjs/loader:1480:32)
+      at Module._load (node:internal/modules/cjs/loader:1299:12)
+      at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+      at Module.require (node:internal/modules/cjs/loader:1503:12)
+      at require (node:internal/modules/helpers:152:16),
+  level: 'error',
+  message: 'uncaughtException: nodemailer.createTransporter is not a function\n' +
+    'TypeError: nodemailer.createTransporter is not a function\n' +
+    '    at new EmailService (C:\\Users\\priya\\harshitaaas event\\utils\\email.js:6:35)\n' +
+    '    at Object.<anonymous> (C:\\Users\\priya\\harshitaaas event\\utils\\email.js:469:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1760:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1892:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1480:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1299:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:328:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1503:12)\n' +
+    '    at require (node:internal/modules/helpers:152:16)',
+  stack: 'TypeError: nodemailer.createTransporter is not a function\n' +
+    '    at new EmailService (C:\\Users\\priya\\harshitaaas event\\utils\\email.js:6:35)\n' +
+    '    at Object.<anonymous> (C:\\Users\\priya\\harshitaaas event\\utils\\email.js:469:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1760:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1892:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1480:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1299:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:328:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1503:12)\n' +
+    '    at require (node:internal/modules/helpers:152:16)',
+  exception: true,
+  date: 'Sat Dec 27 2025 00:25:22 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 28416,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\priya\\harshitaaas event',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v25.2.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\priya\\harshitaaas event\\server.js'
+    ],
+    memoryUsage: {
+      rss: 87932928,
+      heapTotal: 42258432,
+      heapUsed: 33144184,
+      external: 20767131,
+      arrayBuffers: 18264560
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 272021.343 },
+  trace: [
+    {
+      column: 35,
+      file: 'C:\\Users\\priya\\harshitaaas event\\utils\\email.js',
+      function: 'new EmailService',
+      line: 6,
+      method: null,
+      native: false
+    },
+    {
+      column: 18,
+      file: 'C:\\Users\\priya\\harshitaaas event\\utils\\email.js',
+      function: null,
+      line: 469,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1760,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Object..js',
+      line: 1892,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1480,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1299,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 328,
+      method: 'traceSync',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 245,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1503,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 16,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 152,
+      method: null,
+      native: false
+    }
+  ],
+  service: 'campusevents-api',
+  timestamp: '2025-12-27 00:25:22'
+}
+{
+  error: TypeError: nodemailer.createTransporter is not a function
+      at new EmailService (C:\Users\priya\harshitaaas event\utils\email.js:6:35)
+      at Object.<anonymous> (C:\Users\priya\harshitaaas event\utils\email.js:469:18)
+      at Module._compile (node:internal/modules/cjs/loader:1760:14)
+      at Object..js (node:internal/modules/cjs/loader:1892:10)
+      at Module.load (node:internal/modules/cjs/loader:1480:32)
+      at Module._load (node:internal/modules/cjs/loader:1299:12)
+      at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+      at Module.require (node:internal/modules/cjs/loader:1503:12)
+      at require (node:internal/modules/helpers:152:16),
+  level: 'error',
+  message: 'uncaughtException: nodemailer.createTransporter is not a function\n' +
+    'TypeError: nodemailer.createTransporter is not a function\n' +
+    '    at new EmailService (C:\\Users\\priya\\harshitaaas event\\utils\\email.js:6:35)\n' +
+    '    at Object.<anonymous> (C:\\Users\\priya\\harshitaaas event\\utils\\email.js:469:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1760:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1892:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1480:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1299:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:328:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1503:12)\n' +
+    '    at require (node:internal/modules/helpers:152:16)',
+  stack: 'TypeError: nodemailer.createTransporter is not a function\n' +
+    '    at new EmailService (C:\\Users\\priya\\harshitaaas event\\utils\\email.js:6:35)\n' +
+    '    at Object.<anonymous> (C:\\Users\\priya\\harshitaaas event\\utils\\email.js:469:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1760:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1892:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1480:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1299:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:328:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1503:12)\n' +
+    '    at require (node:internal/modules/helpers:152:16)',
+  exception: true,
+  date: 'Sat Dec 27 2025 00:32:34 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 29892,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\priya\\harshitaaas event',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v25.2.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\priya\\harshitaaas event\\server.js'
+    ],
+    memoryUsage: {
+      rss: 88952832,
+      heapTotal: 41996288,
+      heapUsed: 32872000,
+      external: 20767131,
+      arrayBuffers: 18264560
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 272452.859 },
+  trace: [
+    {
+      column: 35,
+      file: 'C:\\Users\\priya\\harshitaaas event\\utils\\email.js',
+      function: 'new EmailService',
+      line: 6,
+      method: null,
+      native: false
+    },
+    {
+      column: 18,
+      file: 'C:\\Users\\priya\\harshitaaas event\\utils\\email.js',
+      function: null,
+      line: 469,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1760,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Object..js',
+      line: 1892,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1480,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1299,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 328,
+      method: 'traceSync',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 245,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1503,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 16,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 152,
+      method: null,
+      native: false
+    }
+  ],
+  service: 'campusevents-api',
+  timestamp: '2025-12-27 00:32:34'
+}
+{
+  error: TypeError: nodemailer.createTransporter is not a function
+      at new EmailService (C:\Users\priya\harshitaaas event\utils\email.js:6:35)
+      at Object.<anonymous> (C:\Users\priya\harshitaaas event\utils\email.js:469:18)
+      at Module._compile (node:internal/modules/cjs/loader:1760:14)
+      at Object..js (node:internal/modules/cjs/loader:1892:10)
+      at Module.load (node:internal/modules/cjs/loader:1480:32)
+      at Module._load (node:internal/modules/cjs/loader:1299:12)
+      at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+      at Module.require (node:internal/modules/cjs/loader:1503:12)
+      at require (node:internal/modules/helpers:152:16),
+  level: 'error',
+  message: 'uncaughtException: nodemailer.createTransporter is not a function\n' +
+    'TypeError: nodemailer.createTransporter is not a function\n' +
+    '    at new EmailService (C:\\Users\\priya\\harshitaaas event\\utils\\email.js:6:35)\n' +
+    '    at Object.<anonymous> (C:\\Users\\priya\\harshitaaas event\\utils\\email.js:469:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1760:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1892:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1480:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1299:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:328:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1503:12)\n' +
+    '    at require (node:internal/modules/helpers:152:16)',
+  stack: 'TypeError: nodemailer.createTransporter is not a function\n' +
+    '    at new EmailService (C:\\Users\\priya\\harshitaaas event\\utils\\email.js:6:35)\n' +
+    '    at Object.<anonymous> (C:\\Users\\priya\\harshitaaas event\\utils\\email.js:469:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1760:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1892:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1480:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1299:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:328:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1503:12)\n' +
+    '    at require (node:internal/modules/helpers:152:16)',
+  exception: true,
+  date: 'Sat Dec 27 2025 00:33:24 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 20724,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\priya\\harshitaaas event',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v25.2.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\priya\\harshitaaas event\\server.js'
+    ],
+    memoryUsage: {
+      rss: 87916544,
+      heapTotal: 42520576,
+      heapUsed: 33373024,
+      external: 20767131,
+      arrayBuffers: 18264560
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 272503.171 },
+  trace: [
+    {
+      column: 35,
+      file: 'C:\\Users\\priya\\harshitaaas event\\utils\\email.js',
+      function: 'new EmailService',
+      line: 6,
+      method: null,
+      native: false
+    },
+    {
+      column: 18,
+      file: 'C:\\Users\\priya\\harshitaaas event\\utils\\email.js',
+      function: null,
+      line: 469,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1760,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Object..js',
+      line: 1892,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1480,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1299,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 328,
+      method: 'traceSync',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 245,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1503,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 16,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 152,
+      method: null,
+      native: false
+    }
+  ],
+  service: 'campusevents-api',
+  timestamp: '2025-12-27 00:33:24'
+}
+{
+  error: TypeError: nodemailer.createTransporter is not a function
+      at new EmailService (C:\Users\priya\harshitaaas event\utils\email.js:6:35)
+      at Object.<anonymous> (C:\Users\priya\harshitaaas event\utils\email.js:469:18)
+      at Module._compile (node:internal/modules/cjs/loader:1760:14)
+      at Object..js (node:internal/modules/cjs/loader:1892:10)
+      at Module.load (node:internal/modules/cjs/loader:1480:32)
+      at Module._load (node:internal/modules/cjs/loader:1299:12)
+      at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+      at Module.require (node:internal/modules/cjs/loader:1503:12)
+      at require (node:internal/modules/helpers:152:16),
+  level: 'error',
+  message: 'uncaughtException: nodemailer.createTransporter is not a function\n' +
+    'TypeError: nodemailer.createTransporter is not a function\n' +
+    '    at new EmailService (C:\\Users\\priya\\harshitaaas event\\utils\\email.js:6:35)\n' +
+    '    at Object.<anonymous> (C:\\Users\\priya\\harshitaaas event\\utils\\email.js:469:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1760:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1892:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1480:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1299:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:328:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1503:12)\n' +
+    '    at require (node:internal/modules/helpers:152:16)',
+  stack: 'TypeError: nodemailer.createTransporter is not a function\n' +
+    '    at new EmailService (C:\\Users\\priya\\harshitaaas event\\utils\\email.js:6:35)\n' +
+    '    at Object.<anonymous> (C:\\Users\\priya\\harshitaaas event\\utils\\email.js:469:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1760:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1892:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1480:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1299:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:328:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1503:12)\n' +
+    '    at require (node:internal/modules/helpers:152:16)',
+  exception: true,
+  date: 'Sat Dec 27 2025 00:34:12 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 3440,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\priya\\harshitaaas event',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v25.2.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\priya\\harshitaaas event\\server.js'
+    ],
+    memoryUsage: {
+      rss: 89436160,
+      heapTotal: 42520576,
+      heapUsed: 33284296,
+      external: 20767131,
+      arrayBuffers: 18264560
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 272550.937 },
+  trace: [
+    {
+      column: 35,
+      file: 'C:\\Users\\priya\\harshitaaas event\\utils\\email.js',
+      function: 'new EmailService',
+      line: 6,
+      method: null,
+      native: false
+    },
+    {
+      column: 18,
+      file: 'C:\\Users\\priya\\harshitaaas event\\utils\\email.js',
+      function: null,
+      line: 469,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1760,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Object..js',
+      line: 1892,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1480,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1299,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 328,
+      method: 'traceSync',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 245,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1503,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 16,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 152,
+      method: null,
+      native: false
+    }
+  ],
+  service: 'campusevents-api',
+  timestamp: '2025-12-27 00:34:12'
+}
+{
+  error: TypeError: nodemailer.createTransporter is not a function
+      at new EmailService (C:\Users\priya\harshitaaas event\utils\email.js:6:35)
+      at Object.<anonymous> (C:\Users\priya\harshitaaas event\utils\email.js:469:18)
+      at Module._compile (node:internal/modules/cjs/loader:1760:14)
+      at Object..js (node:internal/modules/cjs/loader:1892:10)
+      at Module.load (node:internal/modules/cjs/loader:1480:32)
+      at Module._load (node:internal/modules/cjs/loader:1299:12)
+      at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+      at Module.require (node:internal/modules/cjs/loader:1503:12)
+      at require (node:internal/modules/helpers:152:16),
+  level: 'error',
+  message: 'uncaughtException: nodemailer.createTransporter is not a function\n' +
+    'TypeError: nodemailer.createTransporter is not a function\n' +
+    '    at new EmailService (C:\\Users\\priya\\harshitaaas event\\utils\\email.js:6:35)\n' +
+    '    at Object.<anonymous> (C:\\Users\\priya\\harshitaaas event\\utils\\email.js:469:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1760:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1892:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1480:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1299:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:328:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1503:12)\n' +
+    '    at require (node:internal/modules/helpers:152:16)',
+  stack: 'TypeError: nodemailer.createTransporter is not a function\n' +
+    '    at new EmailService (C:\\Users\\priya\\harshitaaas event\\utils\\email.js:6:35)\n' +
+    '    at Object.<anonymous> (C:\\Users\\priya\\harshitaaas event\\utils\\email.js:469:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1760:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1892:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1480:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1299:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:328:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1503:12)\n' +
+    '    at require (node:internal/modules/helpers:152:16)',
+  exception: true,
+  date: 'Sat Dec 27 2025 00:39:49 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 28044,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\priya\\harshitaaas event',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v25.2.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\priya\\harshitaaas event\\server.js'
+    ],
+    memoryUsage: {
+      rss: 89182208,
+      heapTotal: 42520576,
+      heapUsed: 33283144,
+      external: 20767131,
+      arrayBuffers: 18264560
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 272888.265 },
+  trace: [
+    {
+      column: 35,
+      file: 'C:\\Users\\priya\\harshitaaas event\\utils\\email.js',
+      function: 'new EmailService',
+      line: 6,
+      method: null,
+      native: false
+    },
+    {
+      column: 18,
+      file: 'C:\\Users\\priya\\harshitaaas event\\utils\\email.js',
+      function: null,
+      line: 469,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1760,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Object..js',
+      line: 1892,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1480,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1299,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 328,
+      method: 'traceSync',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 245,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1503,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 16,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 152,
+      method: null,
+      native: false
+    }
+  ],
+  service: 'campusevents-api',
+  timestamp: '2025-12-27 00:39:49'
+}
+{
+  error: TypeError: nodemailer.createTransporter is not a function
+      at new EmailService (C:\Users\priya\harshitaaas event\utils\email.js:6:35)
+      at Object.<anonymous> (C:\Users\priya\harshitaaas event\utils\email.js:469:18)
+      at Module._compile (node:internal/modules/cjs/loader:1760:14)
+      at Object..js (node:internal/modules/cjs/loader:1892:10)
+      at Module.load (node:internal/modules/cjs/loader:1480:32)
+      at Module._load (node:internal/modules/cjs/loader:1299:12)
+      at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+      at Module.require (node:internal/modules/cjs/loader:1503:12)
+      at require (node:internal/modules/helpers:152:16),
+  level: 'error',
+  message: 'uncaughtException: nodemailer.createTransporter is not a function\n' +
+    'TypeError: nodemailer.createTransporter is not a function\n' +
+    '    at new EmailService (C:\\Users\\priya\\harshitaaas event\\utils\\email.js:6:35)\n' +
+    '    at Object.<anonymous> (C:\\Users\\priya\\harshitaaas event\\utils\\email.js:469:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1760:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1892:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1480:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1299:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:328:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1503:12)\n' +
+    '    at require (node:internal/modules/helpers:152:16)',
+  stack: 'TypeError: nodemailer.createTransporter is not a function\n' +
+    '    at new EmailService (C:\\Users\\priya\\harshitaaas event\\utils\\email.js:6:35)\n' +
+    '    at Object.<anonymous> (C:\\Users\\priya\\harshitaaas event\\utils\\email.js:469:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1760:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1892:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1480:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1299:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:328:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1503:12)\n' +
+    '    at require (node:internal/modules/helpers:152:16)',
+  exception: true,
+  date: 'Sat Dec 27 2025 00:40:56 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 27160,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\priya\\harshitaaas event',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v25.2.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\priya\\harshitaaas event\\server.js'
+    ],
+    memoryUsage: {
+      rss: 85372928,
+      heapTotal: 40161280,
+      heapUsed: 33517696,
+      external: 20767131,
+      arrayBuffers: 18264560
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 272954.593 },
+  trace: [
+    {
+      column: 35,
+      file: 'C:\\Users\\priya\\harshitaaas event\\utils\\email.js',
+      function: 'new EmailService',
+      line: 6,
+      method: null,
+      native: false
+    },
+    {
+      column: 18,
+      file: 'C:\\Users\\priya\\harshitaaas event\\utils\\email.js',
+      function: null,
+      line: 469,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1760,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Object..js',
+      line: 1892,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1480,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1299,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 328,
+      method: 'traceSync',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 245,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1503,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 16,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 152,
+      method: null,
+      native: false
+    }
+  ],
+  service: 'campusevents-api',
+  timestamp: '2025-12-27 00:40:56'
+}
+{
+  error: TypeError: nodemailer.createTransporter is not a function
+      at new EmailService (C:\Users\priya\harshitaaas event\utils\email.js:6:35)
+      at Object.<anonymous> (C:\Users\priya\harshitaaas event\utils\email.js:469:18)
+      at Module._compile (node:internal/modules/cjs/loader:1760:14)
+      at Object..js (node:internal/modules/cjs/loader:1892:10)
+      at Module.load (node:internal/modules/cjs/loader:1480:32)
+      at Module._load (node:internal/modules/cjs/loader:1299:12)
+      at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+      at Module.require (node:internal/modules/cjs/loader:1503:12)
+      at require (node:internal/modules/helpers:152:16),
+  level: 'error',
+  message: 'uncaughtException: nodemailer.createTransporter is not a function\n' +
+    'TypeError: nodemailer.createTransporter is not a function\n' +
+    '    at new EmailService (C:\\Users\\priya\\harshitaaas event\\utils\\email.js:6:35)\n' +
+    '    at Object.<anonymous> (C:\\Users\\priya\\harshitaaas event\\utils\\email.js:469:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1760:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1892:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1480:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1299:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:328:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1503:12)\n' +
+    '    at require (node:internal/modules/helpers:152:16)',
+  stack: 'TypeError: nodemailer.createTransporter is not a function\n' +
+    '    at new EmailService (C:\\Users\\priya\\harshitaaas event\\utils\\email.js:6:35)\n' +
+    '    at Object.<anonymous> (C:\\Users\\priya\\harshitaaas event\\utils\\email.js:469:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1760:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1892:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1480:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1299:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:328:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1503:12)\n' +
+    '    at require (node:internal/modules/helpers:152:16)',
+  exception: true,
+  date: 'Sat Dec 27 2025 10:18:41 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 1796,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\priya\\harshitaaas event',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v25.2.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\priya\\harshitaaas event\\server.js'
+    ],
+    memoryUsage: {
+      rss: 85520384,
+      heapTotal: 41472000,
+      heapUsed: 28752792,
+      external: 20767131,
+      arrayBuffers: 18264559
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 307621.359 },
+  trace: [
+    {
+      column: 35,
+      file: 'C:\\Users\\priya\\harshitaaas event\\utils\\email.js',
+      function: 'new EmailService',
+      line: 6,
+      method: null,
+      native: false
+    },
+    {
+      column: 18,
+      file: 'C:\\Users\\priya\\harshitaaas event\\utils\\email.js',
+      function: null,
+      line: 469,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1760,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Object..js',
+      line: 1892,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1480,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1299,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 328,
+      method: 'traceSync',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 245,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1503,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 16,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 152,
+      method: null,
+      native: false
+    }
+  ],
+  service: 'campusevents-api',
+  timestamp: '2025-12-27 10:18:41'
+}
+{
+  error: TypeError: nodemailer.createTransporter is not a function
+      at new EmailService (C:\Users\priya\harshitaaas event\utils\email.js:6:35)
+      at Object.<anonymous> (C:\Users\priya\harshitaaas event\utils\email.js:469:18)
+      at Module._compile (node:internal/modules/cjs/loader:1760:14)
+      at Object..js (node:internal/modules/cjs/loader:1892:10)
+      at Module.load (node:internal/modules/cjs/loader:1480:32)
+      at Module._load (node:internal/modules/cjs/loader:1299:12)
+      at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+      at Module.require (node:internal/modules/cjs/loader:1503:12)
+      at require (node:internal/modules/helpers:152:16),
+  level: 'error',
+  message: 'uncaughtException: nodemailer.createTransporter is not a function\n' +
+    'TypeError: nodemailer.createTransporter is not a function\n' +
+    '    at new EmailService (C:\\Users\\priya\\harshitaaas event\\utils\\email.js:6:35)\n' +
+    '    at Object.<anonymous> (C:\\Users\\priya\\harshitaaas event\\utils\\email.js:469:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1760:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1892:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1480:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1299:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:328:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1503:12)\n' +
+    '    at require (node:internal/modules/helpers:152:16)',
+  stack: 'TypeError: nodemailer.createTransporter is not a function\n' +
+    '    at new EmailService (C:\\Users\\priya\\harshitaaas event\\utils\\email.js:6:35)\n' +
+    '    at Object.<anonymous> (C:\\Users\\priya\\harshitaaas event\\utils\\email.js:469:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1760:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1892:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1480:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1299:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:328:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1503:12)\n' +
+    '    at require (node:internal/modules/helpers:152:16)',
+  exception: true,
+  date: 'Sat Dec 27 2025 10:58:16 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 16676,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\priya\\harshitaaas event',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v25.2.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\priya\\harshitaaas event\\server.js'
+    ],
+    memoryUsage: {
+      rss: 87400448,
+      heapTotal: 42258432,
+      heapUsed: 33118672,
+      external: 20767131,
+      arrayBuffers: 18264560
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 309996.734 },
+  trace: [
+    {
+      column: 35,
+      file: 'C:\\Users\\priya\\harshitaaas event\\utils\\email.js',
+      function: 'new EmailService',
+      line: 6,
+      method: null,
+      native: false
+    },
+    {
+      column: 18,
+      file: 'C:\\Users\\priya\\harshitaaas event\\utils\\email.js',
+      function: null,
+      line: 469,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1760,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Object..js',
+      line: 1892,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1480,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1299,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 328,
+      method: 'traceSync',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 245,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1503,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 16,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 152,
+      method: null,
+      native: false
+    }
+  ],
+  service: 'campusevents-api',
+  timestamp: '2025-12-27 10:58:16'
+}
+{
+  error: TypeError: nodemailer.createTransporter is not a function
+      at new EmailService (C:\Users\priya\harshitaaas event\utils\email.js:6:35)
+      at Object.<anonymous> (C:\Users\priya\harshitaaas event\utils\email.js:469:18)
+      at Module._compile (node:internal/modules/cjs/loader:1760:14)
+      at Object..js (node:internal/modules/cjs/loader:1892:10)
+      at Module.load (node:internal/modules/cjs/loader:1480:32)
+      at Module._load (node:internal/modules/cjs/loader:1299:12)
+      at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+      at Module.require (node:internal/modules/cjs/loader:1503:12)
+      at require (node:internal/modules/helpers:152:16),
+  level: 'error',
+  message: 'uncaughtException: nodemailer.createTransporter is not a function\n' +
+    'TypeError: nodemailer.createTransporter is not a function\n' +
+    '    at new EmailService (C:\\Users\\priya\\harshitaaas event\\utils\\email.js:6:35)\n' +
+    '    at Object.<anonymous> (C:\\Users\\priya\\harshitaaas event\\utils\\email.js:469:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1760:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1892:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1480:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1299:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:328:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1503:12)\n' +
+    '    at require (node:internal/modules/helpers:152:16)',
+  stack: 'TypeError: nodemailer.createTransporter is not a function\n' +
+    '    at new EmailService (C:\\Users\\priya\\harshitaaas event\\utils\\email.js:6:35)\n' +
+    '    at Object.<anonymous> (C:\\Users\\priya\\harshitaaas event\\utils\\email.js:469:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1760:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1892:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1480:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1299:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:328:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1503:12)\n' +
+    '    at require (node:internal/modules/helpers:152:16)',
+  exception: true,
+  date: 'Sat Dec 27 2025 13:57:17 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 19604,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\priya\\harshitaaas event',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v25.2.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\priya\\harshitaaas event\\server.js'
+    ],
+    memoryUsage: {
+      rss: 87060480,
+      heapTotal: 41472000,
+      heapUsed: 32453984,
+      external: 20767131,
+      arrayBuffers: 18264560
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 132.859 },
+  trace: [
+    {
+      column: 35,
+      file: 'C:\\Users\\priya\\harshitaaas event\\utils\\email.js',
+      function: 'new EmailService',
+      line: 6,
+      method: null,
+      native: false
+    },
+    {
+      column: 18,
+      file: 'C:\\Users\\priya\\harshitaaas event\\utils\\email.js',
+      function: null,
+      line: 469,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1760,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Object..js',
+      line: 1892,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1480,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1299,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 328,
+      method: 'traceSync',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 245,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1503,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 16,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 152,
+      method: null,
+      native: false
+    }
+  ],
+  service: 'campusevents-api',
+  timestamp: '2025-12-27 13:57:17'
+}
+{
+  error: TypeError: nodemailer.createTransporter is not a function
+      at new EmailService (C:\Users\priya\harshitaaas event\utils\email.js:6:35)
+      at Object.<anonymous> (C:\Users\priya\harshitaaas event\utils\email.js:469:18)
+      at Module._compile (node:internal/modules/cjs/loader:1760:14)
+      at Object..js (node:internal/modules/cjs/loader:1892:10)
+      at Module.load (node:internal/modules/cjs/loader:1480:32)
+      at Module._load (node:internal/modules/cjs/loader:1299:12)
+      at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+      at Module.require (node:internal/modules/cjs/loader:1503:12)
+      at require (node:internal/modules/helpers:152:16),
+  level: 'error',
+  message: 'uncaughtException: nodemailer.createTransporter is not a function\n' +
+    'TypeError: nodemailer.createTransporter is not a function\n' +
+    '    at new EmailService (C:\\Users\\priya\\harshitaaas event\\utils\\email.js:6:35)\n' +
+    '    at Object.<anonymous> (C:\\Users\\priya\\harshitaaas event\\utils\\email.js:469:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1760:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1892:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1480:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1299:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:328:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1503:12)\n' +
+    '    at require (node:internal/modules/helpers:152:16)',
+  stack: 'TypeError: nodemailer.createTransporter is not a function\n' +
+    '    at new EmailService (C:\\Users\\priya\\harshitaaas event\\utils\\email.js:6:35)\n' +
+    '    at Object.<anonymous> (C:\\Users\\priya\\harshitaaas event\\utils\\email.js:469:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1760:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1892:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1480:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1299:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:328:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1503:12)\n' +
+    '    at require (node:internal/modules/helpers:152:16)',
+  exception: true,
+  date: 'Sat Dec 27 2025 13:59:03 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 3212,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\priya\\harshitaaas event',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v25.2.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\priya\\harshitaaas event\\server.js'
+    ],
+    memoryUsage: {
+      rss: 88449024,
+      heapTotal: 42258432,
+      heapUsed: 33078840,
+      external: 20767131,
+      arrayBuffers: 18264560
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 238.562 },
+  trace: [
+    {
+      column: 35,
+      file: 'C:\\Users\\priya\\harshitaaas event\\utils\\email.js',
+      function: 'new EmailService',
+      line: 6,
+      method: null,
+      native: false
+    },
+    {
+      column: 18,
+      file: 'C:\\Users\\priya\\harshitaaas event\\utils\\email.js',
+      function: null,
+      line: 469,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1760,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Object..js',
+      line: 1892,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1480,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1299,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 328,
+      method: 'traceSync',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 245,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1503,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 16,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 152,
+      method: null,
+      native: false
+    }
+  ],
+  service: 'campusevents-api',
+  timestamp: '2025-12-27 13:59:03'
+}
+{
+  error: TypeError: nodemailer.createTransporter is not a function
+      at new EmailService (C:\Users\priya\harshitaaas event\utils\email.js:6:35)
+      at Object.<anonymous> (C:\Users\priya\harshitaaas event\utils\email.js:469:18)
+      at Module._compile (node:internal/modules/cjs/loader:1760:14)
+      at Object..js (node:internal/modules/cjs/loader:1892:10)
+      at Module.load (node:internal/modules/cjs/loader:1480:32)
+      at Module._load (node:internal/modules/cjs/loader:1299:12)
+      at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+      at Module.require (node:internal/modules/cjs/loader:1503:12)
+      at require (node:internal/modules/helpers:152:16),
+  level: 'error',
+  message: 'uncaughtException: nodemailer.createTransporter is not a function\n' +
+    'TypeError: nodemailer.createTransporter is not a function\n' +
+    '    at new EmailService (C:\\Users\\priya\\harshitaaas event\\utils\\email.js:6:35)\n' +
+    '    at Object.<anonymous> (C:\\Users\\priya\\harshitaaas event\\utils\\email.js:469:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1760:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1892:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1480:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1299:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:328:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1503:12)\n' +
+    '    at require (node:internal/modules/helpers:152:16)',
+  stack: 'TypeError: nodemailer.createTransporter is not a function\n' +
+    '    at new EmailService (C:\\Users\\priya\\harshitaaas event\\utils\\email.js:6:35)\n' +
+    '    at Object.<anonymous> (C:\\Users\\priya\\harshitaaas event\\utils\\email.js:469:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1760:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1892:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1480:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1299:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:328:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1503:12)\n' +
+    '    at require (node:internal/modules/helpers:152:16)',
+  exception: true,
+  date: 'Sat Dec 27 2025 14:08:28 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 1452,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\priya\\harshitaaas event',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v25.2.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\priya\\harshitaaas event\\server.js'
+    ],
+    memoryUsage: {
+      rss: 85233664,
+      heapTotal: 41472000,
+      heapUsed: 27733144,
+      external: 20767131,
+      arrayBuffers: 18264559
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 803.109 },
+  trace: [
+    {
+      column: 35,
+      file: 'C:\\Users\\priya\\harshitaaas event\\utils\\email.js',
+      function: 'new EmailService',
+      line: 6,
+      method: null,
+      native: false
+    },
+    {
+      column: 18,
+      file: 'C:\\Users\\priya\\harshitaaas event\\utils\\email.js',
+      function: null,
+      line: 469,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1760,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Object..js',
+      line: 1892,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1480,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1299,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 328,
+      method: 'traceSync',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 245,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1503,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 16,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 152,
+      method: null,
+      native: false
+    }
+  ],
+  service: 'campusevents-api',
+  timestamp: '2025-12-27 14:08:28'
+}
+{
+  error: TypeError: nodemailer.createTransporter is not a function
+      at new EmailService (C:\Users\priya\harshitaaas event\utils\email.js:6:35)
+      at Object.<anonymous> (C:\Users\priya\harshitaaas event\utils\email.js:469:18)
+      at Module._compile (node:internal/modules/cjs/loader:1760:14)
+      at Object..js (node:internal/modules/cjs/loader:1892:10)
+      at Module.load (node:internal/modules/cjs/loader:1480:32)
+      at Module._load (node:internal/modules/cjs/loader:1299:12)
+      at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+      at Module.require (node:internal/modules/cjs/loader:1503:12)
+      at require (node:internal/modules/helpers:152:16),
+  level: 'error',
+  message: 'uncaughtException: nodemailer.createTransporter is not a function\n' +
+    'TypeError: nodemailer.createTransporter is not a function\n' +
+    '    at new EmailService (C:\\Users\\priya\\harshitaaas event\\utils\\email.js:6:35)\n' +
+    '    at Object.<anonymous> (C:\\Users\\priya\\harshitaaas event\\utils\\email.js:469:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1760:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1892:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1480:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1299:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:328:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1503:12)\n' +
+    '    at require (node:internal/modules/helpers:152:16)',
+  stack: 'TypeError: nodemailer.createTransporter is not a function\n' +
+    '    at new EmailService (C:\\Users\\priya\\harshitaaas event\\utils\\email.js:6:35)\n' +
+    '    at Object.<anonymous> (C:\\Users\\priya\\harshitaaas event\\utils\\email.js:469:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1760:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1892:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1480:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1299:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:328:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1503:12)\n' +
+    '    at require (node:internal/modules/helpers:152:16)',
+  exception: true,
+  date: 'Sat Dec 27 2025 14:10:47 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 3708,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\priya\\harshitaaas event',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v25.2.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\priya\\harshitaaas event\\server.js'
+    ],
+    memoryUsage: {
+      rss: 87851008,
+      heapTotal: 42258432,
+      heapUsed: 33133504,
+      external: 20767131,
+      arrayBuffers: 18264560
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 942.89 },
+  trace: [
+    {
+      column: 35,
+      file: 'C:\\Users\\priya\\harshitaaas event\\utils\\email.js',
+      function: 'new EmailService',
+      line: 6,
+      method: null,
+      native: false
+    },
+    {
+      column: 18,
+      file: 'C:\\Users\\priya\\harshitaaas event\\utils\\email.js',
+      function: null,
+      line: 469,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1760,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Object..js',
+      line: 1892,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1480,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1299,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 328,
+      method: 'traceSync',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 245,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1503,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 16,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 152,
+      method: null,
+      native: false
+    }
+  ],
+  service: 'campusevents-api',
+  timestamp: '2025-12-27 14:10:47'
+}
+{
+  error: TypeError: nodemailer.createTransporter is not a function
+      at new EmailService (C:\Users\priya\harshitaaas event\utils\email.js:6:35)
+      at Object.<anonymous> (C:\Users\priya\harshitaaas event\utils\email.js:469:18)
+      at Module._compile (node:internal/modules/cjs/loader:1760:14)
+      at Object..js (node:internal/modules/cjs/loader:1892:10)
+      at Module.load (node:internal/modules/cjs/loader:1480:32)
+      at Module._load (node:internal/modules/cjs/loader:1299:12)
+      at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+      at Module.require (node:internal/modules/cjs/loader:1503:12)
+      at require (node:internal/modules/helpers:152:16),
+  level: 'error',
+  message: 'uncaughtException: nodemailer.createTransporter is not a function\n' +
+    'TypeError: nodemailer.createTransporter is not a function\n' +
+    '    at new EmailService (C:\\Users\\priya\\harshitaaas event\\utils\\email.js:6:35)\n' +
+    '    at Object.<anonymous> (C:\\Users\\priya\\harshitaaas event\\utils\\email.js:469:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1760:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1892:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1480:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1299:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:328:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1503:12)\n' +
+    '    at require (node:internal/modules/helpers:152:16)',
+  stack: 'TypeError: nodemailer.createTransporter is not a function\n' +
+    '    at new EmailService (C:\\Users\\priya\\harshitaaas event\\utils\\email.js:6:35)\n' +
+    '    at Object.<anonymous> (C:\\Users\\priya\\harshitaaas event\\utils\\email.js:469:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1760:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1892:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1480:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1299:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:328:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1503:12)\n' +
+    '    at require (node:internal/modules/helpers:152:16)',
+  exception: true,
+  date: 'Sat Dec 27 2025 14:11:21 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 23084,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\priya\\harshitaaas event',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v25.2.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\priya\\harshitaaas event\\server.js'
+    ],
+    memoryUsage: {
+      rss: 88145920,
+      heapTotal: 42258432,
+      heapUsed: 33118544,
+      external: 20767131,
+      arrayBuffers: 18264560
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 976.109 },
+  trace: [
+    {
+      column: 35,
+      file: 'C:\\Users\\priya\\harshitaaas event\\utils\\email.js',
+      function: 'new EmailService',
+      line: 6,
+      method: null,
+      native: false
+    },
+    {
+      column: 18,
+      file: 'C:\\Users\\priya\\harshitaaas event\\utils\\email.js',
+      function: null,
+      line: 469,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1760,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Object..js',
+      line: 1892,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1480,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1299,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 328,
+      method: 'traceSync',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 245,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1503,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 16,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 152,
+      method: null,
+      native: false
+    }
+  ],
+  service: 'campusevents-api',
+  timestamp: '2025-12-27 14:11:21'
+}
+{
+  error: TypeError: nodemailer.createTransporter is not a function
+      at new EmailService (C:\Users\priya\harshitaaas event\utils\email.js:6:35)
+      at Object.<anonymous> (C:\Users\priya\harshitaaas event\utils\email.js:469:18)
+      at Module._compile (node:internal/modules/cjs/loader:1760:14)
+      at Object..js (node:internal/modules/cjs/loader:1892:10)
+      at Module.load (node:internal/modules/cjs/loader:1480:32)
+      at Module._load (node:internal/modules/cjs/loader:1299:12)
+      at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+      at Module.require (node:internal/modules/cjs/loader:1503:12)
+      at require (node:internal/modules/helpers:152:16),
+  level: 'error',
+  message: 'uncaughtException: nodemailer.createTransporter is not a function\n' +
+    'TypeError: nodemailer.createTransporter is not a function\n' +
+    '    at new EmailService (C:\\Users\\priya\\harshitaaas event\\utils\\email.js:6:35)\n' +
+    '    at Object.<anonymous> (C:\\Users\\priya\\harshitaaas event\\utils\\email.js:469:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1760:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1892:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1480:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1299:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:328:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1503:12)\n' +
+    '    at require (node:internal/modules/helpers:152:16)',
+  stack: 'TypeError: nodemailer.createTransporter is not a function\n' +
+    '    at new EmailService (C:\\Users\\priya\\harshitaaas event\\utils\\email.js:6:35)\n' +
+    '    at Object.<anonymous> (C:\\Users\\priya\\harshitaaas event\\utils\\email.js:469:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1760:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1892:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1480:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1299:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:328:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1503:12)\n' +
+    '    at require (node:internal/modules/helpers:152:16)',
+  exception: true,
+  date: 'Sat Dec 27 2025 14:15:52 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 1128,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\priya\\harshitaaas event',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v25.2.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\priya\\harshitaaas event\\server.js'
+    ],
+    memoryUsage: {
+      rss: 84656128,
+      heapTotal: 40685568,
+      heapUsed: 30791800,
+      external: 20767131,
+      arrayBuffers: 18264560
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1247.437 },
+  trace: [
+    {
+      column: 35,
+      file: 'C:\\Users\\priya\\harshitaaas event\\utils\\email.js',
+      function: 'new EmailService',
+      line: 6,
+      method: null,
+      native: false
+    },
+    {
+      column: 18,
+      file: 'C:\\Users\\priya\\harshitaaas event\\utils\\email.js',
+      function: null,
+      line: 469,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1760,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Object..js',
+      line: 1892,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1480,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1299,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 328,
+      method: 'traceSync',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 245,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1503,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 16,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 152,
+      method: null,
+      native: false
+    }
+  ],
+  service: 'campusevents-api',
+  timestamp: '2025-12-27 14:15:52'
+}
+{
+  error: TypeError: nodemailer.createTransporter is not a function
+      at new EmailService (C:\Users\priya\harshitaaas event\utils\email.js:6:35)
+      at Object.<anonymous> (C:\Users\priya\harshitaaas event\utils\email.js:469:18)
+      at Module._compile (node:internal/modules/cjs/loader:1760:14)
+      at Object..js (node:internal/modules/cjs/loader:1892:10)
+      at Module.load (node:internal/modules/cjs/loader:1480:32)
+      at Module._load (node:internal/modules/cjs/loader:1299:12)
+      at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+      at Module.require (node:internal/modules/cjs/loader:1503:12)
+      at require (node:internal/modules/helpers:152:16),
+  level: 'error',
+  message: 'uncaughtException: nodemailer.createTransporter is not a function\n' +
+    'TypeError: nodemailer.createTransporter is not a function\n' +
+    '    at new EmailService (C:\\Users\\priya\\harshitaaas event\\utils\\email.js:6:35)\n' +
+    '    at Object.<anonymous> (C:\\Users\\priya\\harshitaaas event\\utils\\email.js:469:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1760:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1892:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1480:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1299:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:328:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1503:12)\n' +
+    '    at require (node:internal/modules/helpers:152:16)',
+  stack: 'TypeError: nodemailer.createTransporter is not a function\n' +
+    '    at new EmailService (C:\\Users\\priya\\harshitaaas event\\utils\\email.js:6:35)\n' +
+    '    at Object.<anonymous> (C:\\Users\\priya\\harshitaaas event\\utils\\email.js:469:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1760:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1892:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1480:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1299:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:328:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1503:12)\n' +
+    '    at require (node:internal/modules/helpers:152:16)',
+  exception: true,
+  date: 'Sat Dec 27 2025 14:16:07 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 22716,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\priya\\harshitaaas event',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v25.2.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\priya\\harshitaaas event\\server.js'
+    ],
+    memoryUsage: {
+      rss: 86310912,
+      heapTotal: 41996288,
+      heapUsed: 32696176,
+      external: 20767131,
+      arrayBuffers: 18264560
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1262.312 },
+  trace: [
+    {
+      column: 35,
+      file: 'C:\\Users\\priya\\harshitaaas event\\utils\\email.js',
+      function: 'new EmailService',
+      line: 6,
+      method: null,
+      native: false
+    },
+    {
+      column: 18,
+      file: 'C:\\Users\\priya\\harshitaaas event\\utils\\email.js',
+      function: null,
+      line: 469,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1760,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Object..js',
+      line: 1892,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1480,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1299,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 328,
+      method: 'traceSync',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 245,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1503,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 16,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 152,
+      method: null,
+      native: false
+    }
+  ],
+  service: 'campusevents-api',
+  timestamp: '2025-12-27 14:16:07'
+}
+{
+  error: TypeError: nodemailer.createTransporter is not a function
+      at new EmailService (C:\Users\priya\harshitaaas event\utils\email.js:6:35)
+      at Object.<anonymous> (C:\Users\priya\harshitaaas event\utils\email.js:469:18)
+      at Module._compile (node:internal/modules/cjs/loader:1760:14)
+      at Object..js (node:internal/modules/cjs/loader:1892:10)
+      at Module.load (node:internal/modules/cjs/loader:1480:32)
+      at Module._load (node:internal/modules/cjs/loader:1299:12)
+      at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+      at Module.require (node:internal/modules/cjs/loader:1503:12)
+      at require (node:internal/modules/helpers:152:16),
+  level: 'error',
+  message: 'uncaughtException: nodemailer.createTransporter is not a function\n' +
+    'TypeError: nodemailer.createTransporter is not a function\n' +
+    '    at new EmailService (C:\\Users\\priya\\harshitaaas event\\utils\\email.js:6:35)\n' +
+    '    at Object.<anonymous> (C:\\Users\\priya\\harshitaaas event\\utils\\email.js:469:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1760:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1892:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1480:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1299:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:328:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1503:12)\n' +
+    '    at require (node:internal/modules/helpers:152:16)',
+  stack: 'TypeError: nodemailer.createTransporter is not a function\n' +
+    '    at new EmailService (C:\\Users\\priya\\harshitaaas event\\utils\\email.js:6:35)\n' +
+    '    at Object.<anonymous> (C:\\Users\\priya\\harshitaaas event\\utils\\email.js:469:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1760:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1892:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1480:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1299:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:328:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1503:12)\n' +
+    '    at require (node:internal/modules/helpers:152:16)',
+  exception: true,
+  date: 'Sat Dec 27 2025 14:16:30 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 23136,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\priya\\harshitaaas event',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v25.2.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\priya\\harshitaaas event\\server.js'
+    ],
+    memoryUsage: {
+      rss: 85204992,
+      heapTotal: 40947712,
+      heapUsed: 30633344,
+      external: 20767131,
+      arrayBuffers: 18264560
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1285.546 },
+  trace: [
+    {
+      column: 35,
+      file: 'C:\\Users\\priya\\harshitaaas event\\utils\\email.js',
+      function: 'new EmailService',
+      line: 6,
+      method: null,
+      native: false
+    },
+    {
+      column: 18,
+      file: 'C:\\Users\\priya\\harshitaaas event\\utils\\email.js',
+      function: null,
+      line: 469,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1760,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Object..js',
+      line: 1892,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1480,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1299,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 328,
+      method: 'traceSync',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 245,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1503,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 16,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 152,
+      method: null,
+      native: false
+    }
+  ],
+  service: 'campusevents-api',
+  timestamp: '2025-12-27 14:16:30'
+}
+{
+  error: TypeError: nodemailer.createTransporter is not a function
+      at new EmailService (C:\Users\priya\harshitaaas event\utils\email.js:6:35)
+      at Object.<anonymous> (C:\Users\priya\harshitaaas event\utils\email.js:469:18)
+      at Module._compile (node:internal/modules/cjs/loader:1760:14)
+      at Object..js (node:internal/modules/cjs/loader:1892:10)
+      at Module.load (node:internal/modules/cjs/loader:1480:32)
+      at Module._load (node:internal/modules/cjs/loader:1299:12)
+      at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+      at Module.require (node:internal/modules/cjs/loader:1503:12)
+      at require (node:internal/modules/helpers:152:16),
+  level: 'error',
+  message: 'uncaughtException: nodemailer.createTransporter is not a function\n' +
+    'TypeError: nodemailer.createTransporter is not a function\n' +
+    '    at new EmailService (C:\\Users\\priya\\harshitaaas event\\utils\\email.js:6:35)\n' +
+    '    at Object.<anonymous> (C:\\Users\\priya\\harshitaaas event\\utils\\email.js:469:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1760:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1892:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1480:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1299:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:328:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1503:12)\n' +
+    '    at require (node:internal/modules/helpers:152:16)',
+  stack: 'TypeError: nodemailer.createTransporter is not a function\n' +
+    '    at new EmailService (C:\\Users\\priya\\harshitaaas event\\utils\\email.js:6:35)\n' +
+    '    at Object.<anonymous> (C:\\Users\\priya\\harshitaaas event\\utils\\email.js:469:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1760:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1892:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1480:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1299:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:328:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1503:12)\n' +
+    '    at require (node:internal/modules/helpers:152:16)',
+  exception: true,
+  date: 'Sat Dec 27 2025 14:16:46 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 17640,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\priya\\harshitaaas event',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v25.2.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\priya\\harshitaaas event\\server.js'
+    ],
+    memoryUsage: {
+      rss: 87121920,
+      heapTotal: 42786816,
+      heapUsed: 33653688,
+      external: 20767131,
+      arrayBuffers: 18264560
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1301.296 },
+  trace: [
+    {
+      column: 35,
+      file: 'C:\\Users\\priya\\harshitaaas event\\utils\\email.js',
+      function: 'new EmailService',
+      line: 6,
+      method: null,
+      native: false
+    },
+    {
+      column: 18,
+      file: 'C:\\Users\\priya\\harshitaaas event\\utils\\email.js',
+      function: null,
+      line: 469,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1760,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Object..js',
+      line: 1892,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1480,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1299,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 328,
+      method: 'traceSync',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 245,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1503,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 16,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 152,
+      method: null,
+      native: false
+    }
+  ],
+  service: 'campusevents-api',
+  timestamp: '2025-12-27 14:16:46'
+}
+{
+  error: TypeError: nodemailer.createTransporter is not a function
+      at new EmailService (C:\Users\priya\harshitaaas event\utils\email.js:6:35)
+      at Object.<anonymous> (C:\Users\priya\harshitaaas event\utils\email.js:469:18)
+      at Module._compile (node:internal/modules/cjs/loader:1760:14)
+      at Object..js (node:internal/modules/cjs/loader:1892:10)
+      at Module.load (node:internal/modules/cjs/loader:1480:32)
+      at Module._load (node:internal/modules/cjs/loader:1299:12)
+      at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+      at Module.require (node:internal/modules/cjs/loader:1503:12)
+      at require (node:internal/modules/helpers:152:16),
+  level: 'error',
+  message: 'uncaughtException: nodemailer.createTransporter is not a function\n' +
+    'TypeError: nodemailer.createTransporter is not a function\n' +
+    '    at new EmailService (C:\\Users\\priya\\harshitaaas event\\utils\\email.js:6:35)\n' +
+    '    at Object.<anonymous> (C:\\Users\\priya\\harshitaaas event\\utils\\email.js:469:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1760:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1892:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1480:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1299:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:328:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1503:12)\n' +
+    '    at require (node:internal/modules/helpers:152:16)',
+  stack: 'TypeError: nodemailer.createTransporter is not a function\n' +
+    '    at new EmailService (C:\\Users\\priya\\harshitaaas event\\utils\\email.js:6:35)\n' +
+    '    at Object.<anonymous> (C:\\Users\\priya\\harshitaaas event\\utils\\email.js:469:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1760:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1892:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1480:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1299:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:328:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1503:12)\n' +
+    '    at require (node:internal/modules/helpers:152:16)',
+  exception: true,
+  date: 'Sat Dec 27 2025 14:17:24 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 2920,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\priya\\harshitaaas event',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v25.2.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\priya\\harshitaaas event\\server.js'
+    ],
+    memoryUsage: {
+      rss: 85815296,
+      heapTotal: 41996288,
+      heapUsed: 32808520,
+      external: 20767131,
+      arrayBuffers: 18264560
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1339.234 },
+  trace: [
+    {
+      column: 35,
+      file: 'C:\\Users\\priya\\harshitaaas event\\utils\\email.js',
+      function: 'new EmailService',
+      line: 6,
+      method: null,
+      native: false
+    },
+    {
+      column: 18,
+      file: 'C:\\Users\\priya\\harshitaaas event\\utils\\email.js',
+      function: null,
+      line: 469,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1760,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Object..js',
+      line: 1892,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1480,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1299,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 328,
+      method: 'traceSync',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 245,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1503,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 16,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 152,
+      method: null,
+      native: false
+    }
+  ],
+  service: 'campusevents-api',
+  timestamp: '2025-12-27 14:17:24'
+}
+{
+  error: Error: listen EADDRINUSE: address already in use :::5000
+      at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+      at listenInCluster (node:net:1997:12)
+      at Server.listen (node:net:2102:7)
+      at app.listen (C:\Users\priya\harshitaaas event\node_modules\express\lib\application.js:635:24)
+      at Object.<anonymous> (C:\Users\priya\harshitaaas event\server.js:175:5)
+      at Module._compile (node:internal/modules/cjs/loader:1760:14)
+      at Object..js (node:internal/modules/cjs/loader:1892:10)
+      at Module.load (node:internal/modules/cjs/loader:1480:32)
+      at Module._load (node:internal/modules/cjs/loader:1299:12)
+      at TracingChannel.traceSync (node:diagnostics_channel:328:14) {
+    code: 'EADDRINUSE',
+    errno: -4091,
+    syscall: 'listen',
+    address: '::',
+    port: 5000
+  },
+  level: 'error',
+  message: 'uncaughtException: listen EADDRINUSE: address already in use :::5000\n' +
+    'Error: listen EADDRINUSE: address already in use :::5000\n' +
+    '    at Server.setupListenHandle [as _listen2] (node:net:1940:16)\n' +
+    '    at listenInCluster (node:net:1997:12)\n' +
+    '    at Server.listen (node:net:2102:7)\n' +
+    '    at app.listen (C:\\Users\\priya\\harshitaaas event\\node_modules\\express\\lib\\application.js:635:24)\n' +
+    '    at Object.<anonymous> (C:\\Users\\priya\\harshitaaas event\\server.js:175:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1760:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1892:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1480:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1299:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:328:14)',
+  stack: 'Error: listen EADDRINUSE: address already in use :::5000\n' +
+    '    at Server.setupListenHandle [as _listen2] (node:net:1940:16)\n' +
+    '    at listenInCluster (node:net:1997:12)\n' +
+    '    at Server.listen (node:net:2102:7)\n' +
+    '    at app.listen (C:\\Users\\priya\\harshitaaas event\\node_modules\\express\\lib\\application.js:635:24)\n' +
+    '    at Object.<anonymous> (C:\\Users\\priya\\harshitaaas event\\server.js:175:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1760:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1892:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1480:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1299:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:328:14)',
+  exception: true,
+  date: 'Sat Dec 27 2025 14:27:33 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 23888,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\priya\\harshitaaas event',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v25.2.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\priya\\harshitaaas event\\server.js'
+    ],
+    memoryUsage: {
+      rss: 103563264,
+      heapTotal: 56033280,
+      heapUsed: 38265744,
+      external: 21924401,
+      arrayBuffers: 18265303
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1948.453 },
+  trace: [
+    {
+      column: 16,
+      file: 'node:net',
+      function: 'Server.setupListenHandle [as _listen2]',
+      line: 1940,
+      method: 'setupListenHandle [as _listen2]',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:net',
+      function: 'listenInCluster',
+      line: 1997,
+      method: null,
+      native: false
+    },
+    {
+      column: 7,
+      file: 'node:net',
+      function: 'Server.listen',
+      line: 2102,
+      method: 'listen',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'C:\\Users\\priya\\harshitaaas event\\node_modules\\express\\lib\\application.js',
+      function: 'app.listen',
+      line: 635,
+      method: 'listen',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\Users\\priya\\harshitaaas event\\server.js',
+      function: null,
+      line: 175,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1760,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Object..js',
+      line: 1892,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1480,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1299,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 328,
+      method: 'traceSync',
+      native: false
+    }
+  ],
+  service: 'campusevents-api',
+  timestamp: '2025-12-27 14:27:33'
+}
+{
+  error: Error: listen EADDRINUSE: address already in use :::5000
+      at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+      at listenInCluster (node:net:1997:12)
+      at Server.listen (node:net:2102:7)
+      at app.listen (C:\Users\priya\harshitaaas event\node_modules\express\lib\application.js:635:24)
+      at Object.<anonymous> (C:\Users\priya\harshitaaas event\server.js:175:5)
+      at Module._compile (node:internal/modules/cjs/loader:1760:14)
+      at Object..js (node:internal/modules/cjs/loader:1892:10)
+      at Module.load (node:internal/modules/cjs/loader:1480:32)
+      at Module._load (node:internal/modules/cjs/loader:1299:12)
+      at TracingChannel.traceSync (node:diagnostics_channel:328:14) {
+    code: 'EADDRINUSE',
+    errno: -4091,
+    syscall: 'listen',
+    address: '::',
+    port: 5000
+  },
+  level: 'error',
+  message: 'uncaughtException: listen EADDRINUSE: address already in use :::5000\n' +
+    'Error: listen EADDRINUSE: address already in use :::5000\n' +
+    '    at Server.setupListenHandle [as _listen2] (node:net:1940:16)\n' +
+    '    at listenInCluster (node:net:1997:12)\n' +
+    '    at Server.listen (node:net:2102:7)\n' +
+    '    at app.listen (C:\\Users\\priya\\harshitaaas event\\node_modules\\express\\lib\\application.js:635:24)\n' +
+    '    at Object.<anonymous> (C:\\Users\\priya\\harshitaaas event\\server.js:175:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1760:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1892:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1480:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1299:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:328:14)',
+  stack: 'Error: listen EADDRINUSE: address already in use :::5000\n' +
+    '    at Server.setupListenHandle [as _listen2] (node:net:1940:16)\n' +
+    '    at listenInCluster (node:net:1997:12)\n' +
+    '    at Server.listen (node:net:2102:7)\n' +
+    '    at app.listen (C:\\Users\\priya\\harshitaaas event\\node_modules\\express\\lib\\application.js:635:24)\n' +
+    '    at Object.<anonymous> (C:\\Users\\priya\\harshitaaas event\\server.js:175:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1760:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1892:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1480:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1299:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:328:14)',
+  exception: true,
+  date: 'Sat Dec 27 2025 14:28:14 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 652,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\priya\\harshitaaas event',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v25.2.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\priya\\harshitaaas event\\server.js'
+    ],
+    memoryUsage: {
+      rss: 103460864,
+      heapTotal: 56295424,
+      heapUsed: 38476304,
+      external: 21924401,
+      arrayBuffers: 18265303
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1989.625 },
+  trace: [
+    {
+      column: 16,
+      file: 'node:net',
+      function: 'Server.setupListenHandle [as _listen2]',
+      line: 1940,
+      method: 'setupListenHandle [as _listen2]',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:net',
+      function: 'listenInCluster',
+      line: 1997,
+      method: null,
+      native: false
+    },
+    {
+      column: 7,
+      file: 'node:net',
+      function: 'Server.listen',
+      line: 2102,
+      method: 'listen',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'C:\\Users\\priya\\harshitaaas event\\node_modules\\express\\lib\\application.js',
+      function: 'app.listen',
+      line: 635,
+      method: 'listen',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\Users\\priya\\harshitaaas event\\server.js',
+      function: null,
+      line: 175,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1760,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Object..js',
+      line: 1892,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1480,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1299,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 328,
+      method: 'traceSync',
+      native: false
+    }
+  ],
+  service: 'campusevents-api',
+  timestamp: '2025-12-27 14:28:14'
+}
+{
+  error: Error: listen EADDRINUSE: address already in use :::5000
+      at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+      at listenInCluster (node:net:1997:12)
+      at Server.listen (node:net:2102:7)
+      at app.listen (C:\Users\priya\harshitaaas event\node_modules\express\lib\application.js:635:24)
+      at Object.<anonymous> (C:\Users\priya\harshitaaas event\server.js:175:5)
+      at Module._compile (node:internal/modules/cjs/loader:1760:14)
+      at Object..js (node:internal/modules/cjs/loader:1892:10)
+      at Module.load (node:internal/modules/cjs/loader:1480:32)
+      at Module._load (node:internal/modules/cjs/loader:1299:12)
+      at TracingChannel.traceSync (node:diagnostics_channel:328:14) {
+    code: 'EADDRINUSE',
+    errno: -4091,
+    syscall: 'listen',
+    address: '::',
+    port: 5000
+  },
+  level: 'error',
+  message: 'uncaughtException: listen EADDRINUSE: address already in use :::5000\n' +
+    'Error: listen EADDRINUSE: address already in use :::5000\n' +
+    '    at Server.setupListenHandle [as _listen2] (node:net:1940:16)\n' +
+    '    at listenInCluster (node:net:1997:12)\n' +
+    '    at Server.listen (node:net:2102:7)\n' +
+    '    at app.listen (C:\\Users\\priya\\harshitaaas event\\node_modules\\express\\lib\\application.js:635:24)\n' +
+    '    at Object.<anonymous> (C:\\Users\\priya\\harshitaaas event\\server.js:175:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1760:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1892:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1480:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1299:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:328:14)',
+  stack: 'Error: listen EADDRINUSE: address already in use :::5000\n' +
+    '    at Server.setupListenHandle [as _listen2] (node:net:1940:16)\n' +
+    '    at listenInCluster (node:net:1997:12)\n' +
+    '    at Server.listen (node:net:2102:7)\n' +
+    '    at app.listen (C:\\Users\\priya\\harshitaaas event\\node_modules\\express\\lib\\application.js:635:24)\n' +
+    '    at Object.<anonymous> (C:\\Users\\priya\\harshitaaas event\\server.js:175:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1760:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1892:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1480:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1299:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:328:14)',
+  exception: true,
+  date: 'Sat Dec 27 2025 14:57:12 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 3412,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\priya\\harshitaaas event',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v25.2.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\priya\\harshitaaas event\\server.js'
+    ],
+    memoryUsage: {
+      rss: 100028416,
+      heapTotal: 52887552,
+      heapUsed: 34662976,
+      external: 21924401,
+      arrayBuffers: 18265303
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 3727.187 },
+  trace: [
+    {
+      column: 16,
+      file: 'node:net',
+      function: 'Server.setupListenHandle [as _listen2]',
+      line: 1940,
+      method: 'setupListenHandle [as _listen2]',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:net',
+      function: 'listenInCluster',
+      line: 1997,
+      method: null,
+      native: false
+    },
+    {
+      column: 7,
+      file: 'node:net',
+      function: 'Server.listen',
+      line: 2102,
+      method: 'listen',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'C:\\Users\\priya\\harshitaaas event\\node_modules\\express\\lib\\application.js',
+      function: 'app.listen',
+      line: 635,
+      method: 'listen',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\Users\\priya\\harshitaaas event\\server.js',
+      function: null,
+      line: 175,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1760,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Object..js',
+      line: 1892,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1480,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1299,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 328,
+      method: 'traceSync',
+      native: false
+    }
+  ],
+  service: 'campusevents-api',
+  timestamp: '2025-12-27 14:57:12'
+}
+{
+  error: Error: listen EADDRINUSE: address already in use :::5000
+      at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+      at listenInCluster (node:net:1997:12)
+      at Server.listen (node:net:2102:7)
+      at app.listen (C:\Users\priya\harshitaaas event\node_modules\express\lib\application.js:635:24)
+      at Object.<anonymous> (C:\Users\priya\harshitaaas event\server.js:175:5)
+      at Module._compile (node:internal/modules/cjs/loader:1760:14)
+      at Object..js (node:internal/modules/cjs/loader:1892:10)
+      at Module.load (node:internal/modules/cjs/loader:1480:32)
+      at Module._load (node:internal/modules/cjs/loader:1299:12)
+      at TracingChannel.traceSync (node:diagnostics_channel:328:14) {
+    code: 'EADDRINUSE',
+    errno: -4091,
+    syscall: 'listen',
+    address: '::',
+    port: 5000
+  },
+  level: 'error',
+  message: 'uncaughtException: listen EADDRINUSE: address already in use :::5000\n' +
+    'Error: listen EADDRINUSE: address already in use :::5000\n' +
+    '    at Server.setupListenHandle [as _listen2] (node:net:1940:16)\n' +
+    '    at listenInCluster (node:net:1997:12)\n' +
+    '    at Server.listen (node:net:2102:7)\n' +
+    '    at app.listen (C:\\Users\\priya\\harshitaaas event\\node_modules\\express\\lib\\application.js:635:24)\n' +
+    '    at Object.<anonymous> (C:\\Users\\priya\\harshitaaas event\\server.js:175:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1760:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1892:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1480:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1299:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:328:14)',
+  stack: 'Error: listen EADDRINUSE: address already in use :::5000\n' +
+    '    at Server.setupListenHandle [as _listen2] (node:net:1940:16)\n' +
+    '    at listenInCluster (node:net:1997:12)\n' +
+    '    at Server.listen (node:net:2102:7)\n' +
+    '    at app.listen (C:\\Users\\priya\\harshitaaas event\\node_modules\\express\\lib\\application.js:635:24)\n' +
+    '    at Object.<anonymous> (C:\\Users\\priya\\harshitaaas event\\server.js:175:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1760:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1892:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1480:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1299:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:328:14)',
+  exception: true,
+  date: 'Sat Dec 27 2025 18:04:42 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 29800,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\priya\\harshitaaas event',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v25.2.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\priya\\harshitaaas event\\server.js'
+    ],
+    memoryUsage: {
+      rss: 99975168,
+      heapTotal: 52887552,
+      heapUsed: 34822896,
+      external: 21924401,
+      arrayBuffers: 18265303
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 14978.015 },
+  trace: [
+    {
+      column: 16,
+      file: 'node:net',
+      function: 'Server.setupListenHandle [as _listen2]',
+      line: 1940,
+      method: 'setupListenHandle [as _listen2]',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:net',
+      function: 'listenInCluster',
+      line: 1997,
+      method: null,
+      native: false
+    },
+    {
+      column: 7,
+      file: 'node:net',
+      function: 'Server.listen',
+      line: 2102,
+      method: 'listen',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'C:\\Users\\priya\\harshitaaas event\\node_modules\\express\\lib\\application.js',
+      function: 'app.listen',
+      line: 635,
+      method: 'listen',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\Users\\priya\\harshitaaas event\\server.js',
+      function: null,
+      line: 175,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1760,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Object..js',
+      line: 1892,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1480,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1299,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 328,
+      method: 'traceSync',
+      native: false
+    }
+  ],
+  service: 'campusevents-api',
+  timestamp: '2025-12-27 18:04:42'
+}
+{
+  error: Error: listen EADDRINUSE: address already in use :::5000
+      at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+      at listenInCluster (node:net:1997:12)
+      at Server.listen (node:net:2102:7)
+      at app.listen (C:\Users\priya\harshitaaas event\node_modules\express\lib\application.js:635:24)
+      at Object.<anonymous> (C:\Users\priya\harshitaaas event\server.js:172:5)
+      at Module._compile (node:internal/modules/cjs/loader:1760:14)
+      at Object..js (node:internal/modules/cjs/loader:1892:10)
+      at Module.load (node:internal/modules/cjs/loader:1480:32)
+      at Module._load (node:internal/modules/cjs/loader:1299:12)
+      at TracingChannel.traceSync (node:diagnostics_channel:328:14) {
+    code: 'EADDRINUSE',
+    errno: -4091,
+    syscall: 'listen',
+    address: '::',
+    port: 5000
+  },
+  level: 'error',
+  message: 'uncaughtException: listen EADDRINUSE: address already in use :::5000\n' +
+    'Error: listen EADDRINUSE: address already in use :::5000\n' +
+    '    at Server.setupListenHandle [as _listen2] (node:net:1940:16)\n' +
+    '    at listenInCluster (node:net:1997:12)\n' +
+    '    at Server.listen (node:net:2102:7)\n' +
+    '    at app.listen (C:\\Users\\priya\\harshitaaas event\\node_modules\\express\\lib\\application.js:635:24)\n' +
+    '    at Object.<anonymous> (C:\\Users\\priya\\harshitaaas event\\server.js:172:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1760:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1892:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1480:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1299:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:328:14)',
+  stack: 'Error: listen EADDRINUSE: address already in use :::5000\n' +
+    '    at Server.setupListenHandle [as _listen2] (node:net:1940:16)\n' +
+    '    at listenInCluster (node:net:1997:12)\n' +
+    '    at Server.listen (node:net:2102:7)\n' +
+    '    at app.listen (C:\\Users\\priya\\harshitaaas event\\node_modules\\express\\lib\\application.js:635:24)\n' +
+    '    at Object.<anonymous> (C:\\Users\\priya\\harshitaaas event\\server.js:172:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1760:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1892:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1480:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1299:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:328:14)',
+  exception: true,
+  date: 'Sat Dec 27 2025 18:06:34 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 24096,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\priya\\harshitaaas event',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v25.2.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\priya\\harshitaaas event\\server.js'
+    ],
+    memoryUsage: {
+      rss: 99864576,
+      heapTotal: 52887552,
+      heapUsed: 34895232,
+      external: 21924401,
+      arrayBuffers: 18265303
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 15089.984 },
+  trace: [
+    {
+      column: 16,
+      file: 'node:net',
+      function: 'Server.setupListenHandle [as _listen2]',
+      line: 1940,
+      method: 'setupListenHandle [as _listen2]',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:net',
+      function: 'listenInCluster',
+      line: 1997,
+      method: null,
+      native: false
+    },
+    {
+      column: 7,
+      file: 'node:net',
+      function: 'Server.listen',
+      line: 2102,
+      method: 'listen',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'C:\\Users\\priya\\harshitaaas event\\node_modules\\express\\lib\\application.js',
+      function: 'app.listen',
+      line: 635,
+      method: 'listen',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\Users\\priya\\harshitaaas event\\server.js',
+      function: null,
+      line: 172,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1760,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Object..js',
+      line: 1892,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1480,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1299,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 328,
+      method: 'traceSync',
+      native: false
+    }
+  ],
+  service: 'campusevents-api',
+  timestamp: '2025-12-27 18:06:34'
+}
+{
+  error: Error: listen EADDRINUSE: address already in use :::3001
+      at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+      at listenInCluster (node:net:1997:12)
+      at Server.listen (node:net:2102:7)
+      at app.listen (C:\Users\priya\harshitaaas event\node_modules\express\lib\application.js:635:24)
+      at Object.<anonymous> (C:\Users\priya\harshitaaas event\server.js:173:5)
+      at Module._compile (node:internal/modules/cjs/loader:1760:14)
+      at Object..js (node:internal/modules/cjs/loader:1892:10)
+      at Module.load (node:internal/modules/cjs/loader:1480:32)
+      at Module._load (node:internal/modules/cjs/loader:1299:12)
+      at TracingChannel.traceSync (node:diagnostics_channel:328:14) {
+    code: 'EADDRINUSE',
+    errno: -4091,
+    syscall: 'listen',
+    address: '::',
+    port: 3001
+  },
+  level: 'error',
+  message: 'uncaughtException: listen EADDRINUSE: address already in use :::3001\n' +
+    'Error: listen EADDRINUSE: address already in use :::3001\n' +
+    '    at Server.setupListenHandle [as _listen2] (node:net:1940:16)\n' +
+    '    at listenInCluster (node:net:1997:12)\n' +
+    '    at Server.listen (node:net:2102:7)\n' +
+    '    at app.listen (C:\\Users\\priya\\harshitaaas event\\node_modules\\express\\lib\\application.js:635:24)\n' +
+    '    at Object.<anonymous> (C:\\Users\\priya\\harshitaaas event\\server.js:173:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1760:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1892:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1480:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1299:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:328:14)',
+  stack: 'Error: listen EADDRINUSE: address already in use :::3001\n' +
+    '    at Server.setupListenHandle [as _listen2] (node:net:1940:16)\n' +
+    '    at listenInCluster (node:net:1997:12)\n' +
+    '    at Server.listen (node:net:2102:7)\n' +
+    '    at app.listen (C:\\Users\\priya\\harshitaaas event\\node_modules\\express\\lib\\application.js:635:24)\n' +
+    '    at Object.<anonymous> (C:\\Users\\priya\\harshitaaas event\\server.js:173:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1760:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1892:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1480:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1299:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:328:14)',
+  exception: true,
+  date: 'Sat Dec 27 2025 19:28:53 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 20652,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\priya\\harshitaaas event',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v25.2.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\priya\\harshitaaas event\\server.js'
+    ],
+    memoryUsage: {
+      rss: 104714240,
+      heapTotal: 56819712,
+      heapUsed: 39049360,
+      external: 21924401,
+      arrayBuffers: 18265303
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 20028.609 },
+  trace: [
+    {
+      column: 16,
+      file: 'node:net',
+      function: 'Server.setupListenHandle [as _listen2]',
+      line: 1940,
+      method: 'setupListenHandle [as _listen2]',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:net',
+      function: 'listenInCluster',
+      line: 1997,
+      method: null,
+      native: false
+    },
+    {
+      column: 7,
+      file: 'node:net',
+      function: 'Server.listen',
+      line: 2102,
+      method: 'listen',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'C:\\Users\\priya\\harshitaaas event\\node_modules\\express\\lib\\application.js',
+      function: 'app.listen',
+      line: 635,
+      method: 'listen',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\Users\\priya\\harshitaaas event\\server.js',
+      function: null,
+      line: 173,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1760,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Object..js',
+      line: 1892,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1480,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1299,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 328,
+      method: 'traceSync',
+      native: false
+    }
+  ],
+  service: 'campusevents-api',
+  timestamp: '2025-12-27 19:28:53'
+}
