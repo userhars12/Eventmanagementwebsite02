@@ -364,7 +364,7 @@ tailwind.config = {
     background: linear-gradient(45deg, #2563eb, #7c3aed);
   }
   
-  /* Event Name Visibility Fix */
+  /* Event Name Visibility Fix with Dynamic Green Effects */
   .event-card h3 {
     color: #000000 !important;
     font-weight: bold !important;
@@ -374,6 +374,53 @@ tailwind.config = {
     visibility: visible !important;
     opacity: 1 !important;
     margin-bottom: 0.75rem !important;
+    transition: all 0.3s ease !important;
+    position: relative !important;
+    background: linear-gradient(45deg, #000000, #22c55e, #000000);
+    background-size: 200% 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    animation: dynamicGreenText 3s ease-in-out infinite;
+  }
+  
+  .event-card:hover h3 {
+    color: #22c55e !important;
+    text-shadow: 0 0 10px rgba(34, 197, 94, 0.5) !important;
+    transform: scale(1.05) !important;
+  }
+  
+  @keyframes dynamicGreenText {
+    0%, 100% {
+      background-position: 0% 50%;
+      color: #000000;
+    }
+    25% {
+      background-position: 50% 50%;
+      color: #16a34a;
+    }
+    50% {
+      background-position: 100% 50%;
+      color: #22c55e;
+    }
+    75% {
+      background-position: 50% 50%;
+      color: #15803d;
+    }
+  }
+  
+  .event-card h3::before {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: linear-gradient(90deg, #22c55e, #16a34a);
+    transition: width 0.3s ease;
+  }
+  
+  .event-card:hover h3::before {
+    width: 100%;
   }
 </style>
 </head>
@@ -2182,7 +2229,11 @@ function renderEvents() {
       </div>
       
       <div class="space-y-3">
-        <h3 class="text-xl font-bold text-black hover:text-primary transition-colors cursor-pointer" style="color: #000000 !important; font-weight: bold !important; display: block !important;">${event.name}</h3>
+        <h3 class="text-xl font-bold text-black hover:text-primary transition-colors cursor-pointer dynamic-event-name" 
+            style="color: #000000 !important; font-weight: bold !important; display: block !important;"
+            onmouseover="this.style.color='#22c55e'; this.style.textShadow='0 0 15px rgba(34, 197, 94, 0.6)'"
+            onmouseout="this.style.color='#000000'; this.style.textShadow='none'"
+            onclick="highlightEventName(this)">${event.name}</h3>
         
         <div class="flex items-center justify-between text-sm text-black">
           <div class="flex items-center space-x-4">
@@ -2216,7 +2267,9 @@ function renderEvents() {
         </div>
         
         <div class="flex gap-2 pt-2">
-          <button data-event-name="${event.name}" class="register-event-btn flex-1 bg-gradient-to-r from-primary to-green-600 hover:from-green-600 hover:to-green-700 py-2 px-4 rounded-lg font-medium transition-all duration-300 hover:scale-105 text-white ${isAlmostFull ? 'animate-pulse' : ''}">
+          <button data-event-name="${event.name}" class="register-event-btn flex-1 bg-gradient-to-r from-primary to-green-600 hover:from-green-600 hover:to-green-700 py-2 px-4 rounded-lg font-medium transition-all duration-300 hover:scale-105 text-white dynamic-register-btn ${isAlmostFull ? 'animate-pulse' : ''}"
+                  onmouseover="this.style.boxShadow='0 0 20px rgba(34, 197, 94, 0.6)'; this.style.transform='scale(1.08)'"
+                  onmouseout="this.style.boxShadow=''; this.style.transform='scale(1)'">
             <i class="fas fa-ticket-alt mr-2"></i>Register
           </button>
           <button data-event-name="${event.name}" class="share-event-btn px-4 py-2 glass-morphism hover:bg-white/30 rounded-lg transition-colors text-black">
@@ -3211,6 +3264,72 @@ function toggleReducedMotion() {
   localStorage.setItem('reducedMotion', isReduced);
   showNotification(`Reduced motion ${isReduced ? 'enabled' : 'disabled'}`, 'success');
 }
+
+// Dynamic Event Name Effects
+function highlightEventName(element) {
+  // Add click effect
+  element.style.transform = 'scale(1.1) translateY(-3px)';
+  element.style.color = '#22c55e';
+  element.style.textShadow = '0 0 20px rgba(34, 197, 94, 0.8), 0 0 40px rgba(34, 197, 94, 0.4)';
+  
+  // Create ripple effect
+  const ripple = document.createElement('div');
+  ripple.style.position = 'absolute';
+  ripple.style.borderRadius = '50%';
+  ripple.style.background = 'rgba(34, 197, 94, 0.3)';
+  ripple.style.transform = 'scale(0)';
+  ripple.style.animation = 'ripple 0.6s linear';
+  ripple.style.left = '50%';
+  ripple.style.top = '50%';
+  ripple.style.width = '20px';
+  ripple.style.height = '20px';
+  ripple.style.marginLeft = '-10px';
+  ripple.style.marginTop = '-10px';
+  ripple.style.pointerEvents = 'none';
+  
+  element.style.position = 'relative';
+  element.appendChild(ripple);
+  
+  // Reset after animation
+  setTimeout(() => {
+    element.style.transform = '';
+    element.style.color = '#000000';
+    element.style.textShadow = '';
+    if (ripple.parentNode) {
+      ripple.parentNode.removeChild(ripple);
+    }
+  }, 600);
+}
+
+// Add ripple animation CSS
+const rippleStyle = document.createElement('style');
+rippleStyle.textContent = `
+  @keyframes ripple {
+    to {
+      transform: scale(4);
+      opacity: 0;
+    }
+  }
+  
+  .dynamic-event-name {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .dynamic-event-name:hover {
+    animation: greenGlow 2s ease-in-out infinite;
+  }
+  
+  @keyframes greenGlow {
+    0%, 100% {
+      text-shadow: 0 0 5px rgba(34, 197, 94, 0.3);
+    }
+    50% {
+      text-shadow: 0 0 20px rgba(34, 197, 94, 0.8), 0 0 30px rgba(34, 197, 94, 0.4);
+    }
+  }
+`;
+document.head.appendChild(rippleStyle);
 
 // Enhanced show function to handle authentication checks
 function show(sectionId) {
