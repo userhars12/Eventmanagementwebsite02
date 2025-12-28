@@ -380,3 +380,27 @@
     '    at async C:\\Users\\priya\\harshitaaas event\\routes\\auth.js:83:7',
   timestamp: '2025-12-27 19:58:52'
 }
+{
+  service: 'campusevents-api',
+  code: 'EAUTH',
+  response: '535-5.7.8 Username and Password not accepted. For more information, go to\n' +
+    '535 5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-34e70d4f887sm28039310a91.3 - gsmtp',
+  responseCode: 535,
+  command: 'AUTH PLAIN',
+  level: 'error',
+  message: 'Email configuration error: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n' +
+    '535 5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-34e70d4f887sm28039310a91.3 - gsmtp',
+  stack: 'Error: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n' +
+    '535 5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-34e70d4f887sm28039310a91.3 - gsmtp\n' +
+    '    at SMTPConnection._formatError (C:\\Users\\priya\\harshitaaas event\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:809:19)\n' +
+    '    at SMTPConnection._actionAUTHComplete (C:\\Users\\priya\\harshitaaas event\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:1617:34)\n' +
+    '    at SMTPConnection.<anonymous> (C:\\Users\\priya\\harshitaaas event\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:556:26)\n' +
+    '    at SMTPConnection._processResponse (C:\\Users\\priya\\harshitaaas event\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:993:20)\n' +
+    '    at SMTPConnection._onData (C:\\Users\\priya\\harshitaaas event\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:774:14)\n' +
+    '    at SMTPConnection._onSocketData (C:\\Users\\priya\\harshitaaas event\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:195:44)\n' +
+    '    at TLSSocket.emit (node:events:508:28)\n' +
+    '    at addChunk (node:internal/streams/readable:559:12)\n' +
+    '    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)\n' +
+    '    at Readable.push (node:internal/streams/readable:390:5)',
+  timestamp: '2025-12-28 15:29:51'
+}

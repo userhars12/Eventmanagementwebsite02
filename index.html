@@ -363,6 +363,18 @@ tailwind.config = {
   ::-webkit-scrollbar-thumb:hover {
     background: linear-gradient(45deg, #2563eb, #7c3aed);
   }
+  
+  /* Event Name Visibility Fix */
+  .event-card h3 {
+    color: #000000 !important;
+    font-weight: bold !important;
+    font-size: 1.25rem !important;
+    line-height: 1.75rem !important;
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    margin-bottom: 0.75rem !important;
+  }
 </style>
 </head>
 
@@ -377,39 +389,39 @@ tailwind.config = {
       </div>
       <div>
         <h1 class="text-2xl font-bold gradient-text">CampusEvents</h1>
-        <p class="text-xs text-gray-400">v2.0 Pro</p>
+        <p class="text-xs text-black">v2.0 Pro</p>
       </div>
     </div>
     
     <!-- Desktop Navigation -->
     <div class="hidden md:flex items-center space-x-8" data-aos="fade-left">
-      <button id="homeBtn" class="nav-link hover:text-green-600 transition-all duration-300 flex items-center group text-gray-700">
+      <button id="homeBtn" class="nav-link hover:text-green-600 transition-all duration-300 flex items-center group text-black">
         <i class="fas fa-home mr-2 group-hover:scale-110 transition-transform"></i>Home
       </button>
-      <button id="eventsBtn" class="nav-link hover:text-green-600 transition-all duration-300 flex items-center group text-gray-700">
+      <button id="eventsBtn" class="nav-link hover:text-green-600 transition-all duration-300 flex items-center group text-black">
         <i class="fas fa-calendar-alt mr-2 group-hover:scale-110 transition-transform"></i>Events
       </button>
-      <button id="createBtn" class="nav-link hover:text-green-600 transition-all duration-300 flex items-center group text-gray-700">
+      <button id="createBtn" class="nav-link hover:text-green-600 transition-all duration-300 flex items-center group text-black">
         <i class="fas fa-plus-circle mr-2 group-hover:scale-110 transition-transform"></i>Create
       </button>
-      <button id="aboutBtn" class="nav-link hover:text-green-600 transition-all duration-300 flex items-center group text-gray-700">
+      <button id="aboutBtn" class="nav-link hover:text-green-600 transition-all duration-300 flex items-center group text-black">
         <i class="fas fa-info-circle mr-2 group-hover:scale-110 transition-transform"></i>About
       </button>
       <div class="relative">
-        <button id="accountBtn" class="bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 px-6 py-2 rounded-full transition-all duration-300 font-medium flex items-center space-x-2 shadow-lg">
+        <button id="accountBtn" class="bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 px-6 py-2 rounded-full transition-all duration-300 font-medium flex items-center space-x-2 shadow-lg text-white">
           <i class="fas fa-user"></i>
           <span>Account</span>
           <i class="fas fa-chevron-down text-xs"></i>
         </button>
         <div id="userMenu" class="hidden absolute right-0 mt-2 w-48 glass-morphism rounded-xl shadow-2xl">
           <div class="py-2">
-            <button id="loginBtn" class="block w-full text-left px-4 py-2 hover:bg-white/10 transition-colors">
+            <button id="loginBtn" class="block w-full text-left px-4 py-2 hover:bg-white/20 transition-colors text-black">
               <i class="fas fa-sign-in-alt mr-2"></i>Login
             </button>
-            <button id="profileBtn" class="block w-full text-left px-4 py-2 hover:bg-white/10 transition-colors">
+            <button id="profileBtn" class="block w-full text-left px-4 py-2 hover:bg-white/20 transition-colors text-black">
               <i class="fas fa-user-circle mr-2"></i>Profile
             </button>
-            <button id="settingsBtn" class="block w-full text-left px-4 py-2 hover:bg-white/10 transition-colors">
+            <button id="settingsBtn" class="block w-full text-left px-4 py-2 hover:bg-white/20 transition-colors text-black">
               <i class="fas fa-cog mr-2"></i>Settings
             </button>
           </div>
@@ -418,7 +430,7 @@ tailwind.config = {
     </div>
     
     <!-- Mobile Menu Button -->
-    <button class="md:hidden text-white" id="mobileMenuBtn" data-aos="fade-left">
+    <button class="md:hidden text-black" id="mobileMenuBtn" data-aos="fade-left">
       <i class="fas fa-bars text-xl"></i>
     </button>
   </nav>
@@ -426,19 +438,19 @@ tailwind.config = {
   <!-- Mobile Navigation -->
   <div id="mobileMenu" class="hidden md:hidden glass-morphism mx-4 rounded-lg mb-4">
     <div class="px-6 py-4 space-y-3">
-      <button id="mobileHomeBtn" class="block w-full text-left py-2 hover:text-primary transition-colors">
+      <button id="mobileHomeBtn" class="block w-full text-left py-2 hover:text-primary transition-colors text-black">
         <i class="fas fa-home mr-2"></i>Home
       </button>
-      <button id="mobileEventsBtn" class="block w-full text-left py-2 hover:text-primary transition-colors">
+      <button id="mobileEventsBtn" class="block w-full text-left py-2 hover:text-primary transition-colors text-black">
         <i class="fas fa-calendar-alt mr-2"></i>Events
       </button>
-      <button id="mobileCreateBtn" class="block w-full text-left py-2 hover:text-primary transition-colors">
+      <button id="mobileCreateBtn" class="block w-full text-left py-2 hover:text-primary transition-colors text-black">
         <i class="fas fa-plus-circle mr-2"></i>Create
       </button>
-      <button id="mobileAboutBtn" class="block w-full text-left py-2 hover:text-primary transition-colors">
+      <button id="mobileAboutBtn" class="block w-full text-left py-2 hover:text-primary transition-colors text-black">
         <i class="fas fa-info-circle mr-2"></i>About
       </button>
-      <button id="mobileLoginBtn" class="block w-full text-left py-2 hover:text-primary transition-colors">
+      <button id="mobileLoginBtn" class="block w-full text-left py-2 hover:text-primary transition-colors text-black">
         <i class="fas fa-sign-in-alt mr-2"></i>Login
       </button>
     </div>
@@ -476,10 +488,10 @@ tailwind.config = {
         </div>
         
         <!-- Subtitle -->
-        <p class="text-gray-600 text-xl md:text-2xl mb-4 font-light leading-relaxed">
+        <p class="text-black text-xl md:text-2xl mb-4 font-light leading-relaxed">
           The ultimate platform for discovering, creating, and managing
         </p>
-        <p class="text-gray-700 text-lg mb-12">
+        <p class="text-black text-lg mb-12">
           campus events with professional-grade tools and seamless experience.
         </p>
         
@@ -489,19 +501,19 @@ tailwind.config = {
             <div class="text-3xl font-bold text-primary mb-2 stat-number" id="eventsHosted">
               28+
             </div>
-            <div class="text-gray-700 text-sm">Events Hosted</div>
+            <div class="text-black text-sm">Events Hosted</div>
           </div>
           <div class="text-center">
             <div class="text-3xl font-bold text-purple-400 mb-2 stat-number" id="studentsEngaged">
               1250+
             </div>
-            <div class="text-gray-700 text-sm">Students Engaged</div>
+            <div class="text-black text-sm">Students Engaged</div>
           </div>
           <div class="text-center">
             <div class="text-3xl font-bold text-accent mb-2 stat-number" id="universitiesCount">
               9+
             </div>
-            <div class="text-gray-700 text-sm">Universities</div>
+            <div class="text-black text-sm">Universities</div>
           </div>
         </div>
         
@@ -526,8 +538,8 @@ tailwind.config = {
               <i class="fas fa-calendar-check text-primary"></i>
             </div>
             <div>
-              <h4 class="font-semibold text-gray-800">Smart Scheduling</h4>
-              <p class="text-gray-600 text-sm">AI-powered event planning</p>
+              <h4 class="font-semibold text-black">Smart Scheduling</h4>
+              <p class="text-black text-sm">AI-powered event planning</p>
             </div>
           </div>
           <div class="flex items-center space-x-3 p-4 rounded-lg bg-white/20">
@@ -535,8 +547,8 @@ tailwind.config = {
               <i class="fas fa-users text-green-600"></i>
             </div>
             <div>
-              <h4 class="font-semibold text-gray-800">Community Driven</h4>
-              <p class="text-gray-600 text-sm">Connect with peers</p>
+              <h4 class="font-semibold text-black">Community Driven</h4>
+              <p class="text-black text-sm">Connect with peers</p>
             </div>
           </div>
           <div class="flex items-center space-x-3 p-4 rounded-lg bg-white/20">
@@ -544,8 +556,8 @@ tailwind.config = {
               <i class="fas fa-chart-line text-accent"></i>
             </div>
             <div>
-              <h4 class="font-semibold text-gray-800">Analytics</h4>
-              <p class="text-gray-600 text-sm">Track engagement</p>
+              <h4 class="font-semibold text-black">Analytics</h4>
+              <p class="text-black text-sm">Track engagement</p>
             </div>
           </div>
         </div>
@@ -568,7 +580,7 @@ tailwind.config = {
         <h2 class="text-5xl font-bold mb-4">
           <span class="gradient-text">About</span> CampusEvents
         </h2>
-        <p class="text-gray-600 text-xl max-w-3xl mx-auto">
+        <p class="text-black text-xl max-w-3xl mx-auto">
           Empowering universities worldwide with cutting-edge event management technology
         </p>
         <div class="w-24 h-1 bg-gradient-to-r from-primary to-green-600 mx-auto mt-6 rounded-full"></div>
@@ -576,8 +588,8 @@ tailwind.config = {
 
       <!-- Mission Statement -->
       <div class="glass-morphism rounded-3xl p-12 mb-16 text-center" data-aos="fade-up" data-aos-delay="100">
-        <h3 class="text-3xl font-bold mb-6 text-gray-800">Our Mission</h3>
-        <p class="text-gray-700 text-lg leading-relaxed max-w-4xl mx-auto">
+        <h3 class="text-3xl font-bold mb-6 text-black">Our Mission</h3>
+        <p class="text-black text-lg leading-relaxed max-w-4xl mx-auto">
           To revolutionize campus life by providing an intuitive, powerful platform that connects students, 
           faculty, and organizations through seamless event discovery and management. We believe every campus 
           event should be an opportunity for growth, connection, and memorable experiences.
@@ -590,55 +602,55 @@ tailwind.config = {
           <div class="w-16 h-16 bg-primary/20 rounded-xl flex items-center justify-center mb-6">
             <i class="fas fa-rocket text-primary text-2xl"></i>
           </div>
-          <h4 class="text-xl font-bold mb-4 text-gray-800">Lightning Fast</h4>
-          <p class="text-gray-600">Built with modern web technologies for instant loading and smooth interactions.</p>
+          <h4 class="text-xl font-bold mb-4 text-black">Lightning Fast</h4>
+          <p class="text-black">Built with modern web technologies for instant loading and smooth interactions.</p>
         </div>
         
         <div class="glass-morphism rounded-2xl p-8 hover-lift" data-aos="fade-up" data-aos-delay="300">
           <div class="w-16 h-16 bg-green-500/20 rounded-xl flex items-center justify-center mb-6">
             <i class="fas fa-shield-alt text-green-600 text-2xl"></i>
           </div>
-          <h4 class="text-xl font-bold mb-4 text-gray-800">Secure & Reliable</h4>
-          <p class="text-gray-600">Enterprise-grade security with 99.9% uptime guarantee for your peace of mind.</p>
+          <h4 class="text-xl font-bold mb-4 text-black">Secure & Reliable</h4>
+          <p class="text-black">Enterprise-grade security with 99.9% uptime guarantee for your peace of mind.</p>
         </div>
         
         <div class="glass-morphism rounded-2xl p-8 hover-lift" data-aos="fade-up" data-aos-delay="400">
           <div class="w-16 h-16 bg-accent/20 rounded-xl flex items-center justify-center mb-6">
             <i class="fas fa-mobile-alt text-accent text-2xl"></i>
           </div>
-          <h4 class="text-xl font-bold mb-4 text-gray-800">Mobile First</h4>
-          <p class="text-gray-600">Responsive design that works perfectly on all devices, from phones to desktops.</p>
+          <h4 class="text-xl font-bold mb-4 text-black">Mobile First</h4>
+          <p class="text-black">Responsive design that works perfectly on all devices, from phones to desktops.</p>
         </div>
         
         <div class="glass-morphism rounded-2xl p-8 hover-lift" data-aos="fade-up" data-aos-delay="500">
           <div class="w-16 h-16 bg-success/20 rounded-xl flex items-center justify-center mb-6">
             <i class="fas fa-chart-line text-success text-2xl"></i>
           </div>
-          <h4 class="text-xl font-bold mb-4 text-gray-800">Smart Analytics</h4>
-          <p class="text-gray-600">Comprehensive insights and reporting to help you understand event performance.</p>
+          <h4 class="text-xl font-bold mb-4 text-black">Smart Analytics</h4>
+          <p class="text-black">Comprehensive insights and reporting to help you understand event performance.</p>
         </div>
         
         <div class="glass-morphism rounded-2xl p-8 hover-lift" data-aos="fade-up" data-aos-delay="600">
           <div class="w-16 h-16 bg-pink-500/20 rounded-xl flex items-center justify-center mb-6">
             <i class="fas fa-users text-pink-600 text-2xl"></i>
           </div>
-          <h4 class="text-xl font-bold mb-4 text-gray-800">Community Driven</h4>
-          <p class="text-gray-600">Built by students, for students, with continuous feedback from our user community.</p>
+          <h4 class="text-xl font-bold mb-4 text-black">Community Driven</h4>
+          <p class="text-black">Built by students, for students, with continuous feedback from our user community.</p>
         </div>
         
         <div class="glass-morphism rounded-2xl p-8 hover-lift" data-aos="fade-up" data-aos-delay="700">
           <div class="w-16 h-16 bg-indigo-500/20 rounded-xl flex items-center justify-center mb-6">
             <i class="fas fa-cogs text-indigo-600 text-2xl"></i>
           </div>
-          <h4 class="text-xl font-bold mb-4 text-gray-800">Easy Integration</h4>
-          <p class="text-gray-600">Seamlessly integrates with existing university systems and popular calendar apps.</p>
+          <h4 class="text-xl font-bold mb-4 text-black">Easy Integration</h4>
+          <p class="text-black">Seamlessly integrates with existing university systems and popular calendar apps.</p>
         </div>
       </div>
 
       <!-- Team Section -->
       <div class="text-center mb-16" data-aos="fade-up" data-aos-delay="800">
-        <h3 class="text-3xl font-bold mb-8 text-gray-800">Built by Passionate Developers</h3>
-        <p class="text-gray-600 text-lg mb-8 max-w-2xl mx-auto">
+        <h3 class="text-3xl font-bold mb-8 text-black">Built by Passionate Developers</h3>
+        <p class="text-black text-lg mb-8 max-w-2xl mx-auto">
           Our team of experienced developers and designers are committed to creating the best possible experience for campus communities.
         </p>
         <button id="aboutExploreBtn" class="bg-gradient-to-r from-primary to-green-600 px-8 py-4 rounded-full font-semibold text-white hover:shadow-2xl hover:shadow-primary/25 transition-all duration-300">
@@ -649,7 +661,7 @@ tailwind.config = {
 
       <!-- Back to Top Button -->
       <div class="text-center pb-16" data-aos="fade-up" data-aos-delay="900">
-        <button id="backToTopBtn" class="glass-morphism px-6 py-3 rounded-full hover:bg-white/30 transition-all duration-300 text-gray-700">
+        <button id="backToTopBtn" class="glass-morphism px-6 py-3 rounded-full hover:bg-white/30 transition-all duration-300 text-black">
           <i class="fas fa-chevron-up mr-2"></i>
           Back to Top
         </button>
@@ -666,28 +678,28 @@ tailwind.config = {
       <h2 class="text-5xl font-bold mb-4">
         <span class="gradient-text">Upcoming</span> Events
       </h2>
-      <p class="text-gray-300 text-xl max-w-2xl mx-auto">
+      <p class="text-black text-xl max-w-2xl mx-auto">
         Discover amazing events happening on your campus. From tech talks to cultural festivals.
       </p>
-      <div class="w-24 h-1 bg-gradient-to-r from-primary to-purple-600 mx-auto mt-6 rounded-full"></div>
+      <div class="w-24 h-1 bg-gradient-to-r from-primary to-green-600 mx-auto mt-6 rounded-full"></div>
     </div>
 
     <!-- Enhanced Filter and Search -->
     <div class="mb-12 flex flex-col lg:flex-row gap-6 justify-between items-center" data-aos="fade-up" data-aos-delay="100">
       <div class="flex flex-wrap gap-3">
-        <button id="filterAllBtn" class="filter-btn active px-6 py-3 rounded-full bg-gradient-to-r from-primary to-purple-600 text-white font-medium transition-all duration-300 hover:scale-105">
+        <button id="filterAllBtn" class="filter-btn active px-6 py-3 rounded-full bg-gradient-to-r from-primary to-green-600 text-white font-medium transition-all duration-300 hover:scale-105">
           <i class="fas fa-globe mr-2"></i>All Events
         </button>
-        <button id="filterTechBtn" class="filter-btn px-6 py-3 rounded-full glass-morphism hover:bg-white/20 transition-all duration-300 hover:scale-105">
+        <button id="filterTechBtn" class="filter-btn px-6 py-3 rounded-full glass-morphism hover:bg-white/30 transition-all duration-300 hover:scale-105 text-black">
           <i class="fas fa-laptop-code mr-2"></i>Tech
         </button>
-        <button id="filterCulturalBtn" class="filter-btn px-6 py-3 rounded-full glass-morphism hover:bg-white/20 transition-all duration-300 hover:scale-105">
+        <button id="filterCulturalBtn" class="filter-btn px-6 py-3 rounded-full glass-morphism hover:bg-white/30 transition-all duration-300 hover:scale-105 text-black">
           <i class="fas fa-theater-masks mr-2"></i>Cultural
         </button>
-        <button id="filterSportsBtn" class="filter-btn px-6 py-3 rounded-full glass-morphism hover:bg-white/20 transition-all duration-300 hover:scale-105">
+        <button id="filterSportsBtn" class="filter-btn px-6 py-3 rounded-full glass-morphism hover:bg-white/30 transition-all duration-300 hover:scale-105 text-black">
           <i class="fas fa-running mr-2"></i>Sports
         </button>
-        <button id="filterAcademicBtn" class="filter-btn px-6 py-3 rounded-full glass-morphism hover:bg-white/20 transition-all duration-300 hover:scale-105">
+        <button id="filterAcademicBtn" class="filter-btn px-6 py-3 rounded-full glass-morphism hover:bg-white/30 transition-all duration-300 hover:scale-105 text-black">
           <i class="fas fa-graduation-cap mr-2"></i>Academic
         </button>
       </div>
@@ -695,10 +707,10 @@ tailwind.config = {
       <div class="flex gap-4">
         <div class="relative">
           <input type="text" id="searchInput" placeholder="Search events..." 
-                 class="pl-12 pr-4 py-3 bg-white/10 border border-white/20 rounded-full backdrop-blur-sm focus:outline-none focus:border-primary focus:bg-white/15 transition-all duration-300 w-80">
-          <i class="fas fa-search absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-400"></i>
+                 class="pl-12 pr-4 py-3 bg-white/80 border border-gray-300 rounded-full backdrop-blur-sm focus:outline-none focus:border-primary focus:bg-white/90 transition-all duration-300 w-80 text-black">
+          <i class="fas fa-search absolute left-4 top-1/2 transform -translate-y-1/2 text-black"></i>
         </div>
-        <button id="toggleViewBtn" class="px-4 py-3 glass-morphism rounded-full hover:bg-white/20 transition-colors" title="Toggle View">
+        <button id="toggleViewBtn" class="px-4 py-3 glass-morphism rounded-full hover:bg-white/30 transition-colors text-black" title="Toggle View">
           <i class="fas fa-th-large" id="viewToggle"></i>
         </button>
       </div>
@@ -729,7 +741,7 @@ tailwind.config = {
     
     <!-- Load More Button -->
     <div class="text-center" data-aos="fade-up">
-      <button id="loadMoreBtn" class="px-8 py-3 glass-morphism hover:bg-white/20 rounded-full transition-all duration-300 backdrop-blur-sm hover:scale-105">
+      <button id="loadMoreBtn" class="px-8 py-3 glass-morphism hover:bg-white/30 rounded-full transition-all duration-300 backdrop-blur-sm hover:scale-105 text-black">
         <i class="fas fa-plus mr-2"></i>Load More Events
       </button>
     </div>
@@ -737,55 +749,55 @@ tailwind.config = {
 </section>
 
 <!-- ENHANCED CREATE EVENT SECTION -->
-<section id="create" class="hidden min-h-screen bg-gradient-to-br from-slate-900 via-purple-900/20 to-slate-900 pt-28 px-6 flex justify-center">
+<section id="create" class="hidden min-h-screen bg-gradient-to-br from-green-50 via-white to-green-100 pt-28 px-6 flex justify-center">
   <div class="max-w-2xl w-full">
     <div class="glass-morphism p-10 rounded-3xl shadow-2xl">
       <div class="text-center mb-8">
-        <div class="w-16 h-16 bg-gradient-to-r from-primary to-purple-600 rounded-full flex items-center justify-center mx-auto mb-4">
+        <div class="w-16 h-16 bg-gradient-to-r from-primary to-green-600 rounded-full flex items-center justify-center mx-auto mb-4">
           <i class="fas fa-calendar-plus text-white text-2xl"></i>
         </div>
         <h2 class="text-4xl font-bold mb-2">
           <span class="gradient-text">Create</span> Event
         </h2>
-        <p class="text-gray-300">Share your amazing event with the campus community</p>
+        <p class="text-black">Share your amazing event with the campus community</p>
       </div>
 
       <form id="createEventForm" class="space-y-6">
         <!-- Event Name -->
         <div class="space-y-2">
-          <label class="block text-sm font-medium text-gray-300">Event Name *</label>
+          <label class="block text-sm font-medium text-gray-700">Event Name *</label>
           <input id="name" required
-                 class="w-full p-4 rounded-xl bg-white/10 border border-white/20 backdrop-blur-sm focus:outline-none focus:border-primary focus:bg-white/15 transition-all duration-200" 
+                 class="w-full p-4 rounded-xl bg-white/80 border border-gray-300 backdrop-blur-sm focus:outline-none focus:border-primary focus:bg-white/90 transition-all duration-200 text-gray-800" 
                  placeholder="Enter event name">
         </div>
 
         <!-- Date and Time -->
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div class="space-y-2">
-            <label class="block text-sm font-medium text-gray-300">Date *</label>
+            <label class="block text-sm font-medium text-gray-700">Date *</label>
             <input id="date" type="date" required
-                   class="w-full p-4 rounded-xl bg-white/10 border border-white/20 backdrop-blur-sm focus:outline-none focus:border-primary focus:bg-white/15 transition-all duration-200">
+                   class="w-full p-4 rounded-xl bg-white/80 border border-gray-300 backdrop-blur-sm focus:outline-none focus:border-primary focus:bg-white/90 transition-all duration-200 text-gray-800">
           </div>
           <div class="space-y-2">
-            <label class="block text-sm font-medium text-gray-300">Time *</label>
+            <label class="block text-sm font-medium text-gray-700">Time *</label>
             <input id="time" type="time" required
-                   class="w-full p-4 rounded-xl bg-white/10 border border-white/20 backdrop-blur-sm focus:outline-none focus:border-primary focus:bg-white/15 transition-all duration-200">
+                   class="w-full p-4 rounded-xl bg-white/80 border border-gray-300 backdrop-blur-sm focus:outline-none focus:border-primary focus:bg-white/90 transition-all duration-200 text-gray-800">
           </div>
         </div>
 
         <!-- Venue -->
         <div class="space-y-2">
-          <label class="block text-sm font-medium text-gray-300">Venue *</label>
+          <label class="block text-sm font-medium text-gray-700">Venue *</label>
           <input id="venue" required
-                 class="w-full p-4 rounded-xl bg-white/10 border border-white/20 backdrop-blur-sm focus:outline-none focus:border-primary focus:bg-white/15 transition-all duration-200" 
+                 class="w-full p-4 rounded-xl bg-white/80 border border-gray-300 backdrop-blur-sm focus:outline-none focus:border-primary focus:bg-white/90 transition-all duration-200 text-gray-800" 
                  placeholder="Event location">
         </div>
 
         <!-- Category -->
         <div class="space-y-2">
-          <label class="block text-sm font-medium text-gray-300">Category *</label>
+          <label class="block text-sm font-medium text-gray-700">Category *</label>
           <select id="category" required
-                  class="w-full p-4 rounded-xl bg-white/10 border border-white/20 backdrop-blur-sm focus:outline-none focus:border-primary focus:bg-white/15 transition-all duration-200">
+                  class="w-full p-4 rounded-xl bg-white/80 border border-gray-300 backdrop-blur-sm focus:outline-none focus:border-primary focus:bg-white/90 transition-all duration-200 text-gray-800"></select>
             <option value="">Select category</option>
             <option value="tech">Technology</option>
             <option value="cultural">Cultural</option>
@@ -797,11 +809,11 @@ tailwind.config = {
 
         <!-- Banner Image Upload -->
         <div class="space-y-2">
-          <label class="block text-sm font-medium text-gray-300">Event Banner Image</label>
+          <label class="block text-sm font-medium text-gray-700">Event Banner Image</label>
           <div class="relative">
             <!-- Image Preview Area -->
             <div id="imagePreview" class="hidden mb-4 relative">
-              <img id="previewImg" src="" alt="Event banner preview" class="w-full h-48 object-cover rounded-xl border border-white/20">
+              <img id="previewImg" src="" alt="Event banner preview" class="w-full h-48 object-cover rounded-xl border border-gray-300">
               <button type="button" id="removeImageBtn" class="absolute top-2 right-2 w-8 h-8 bg-red-500/80 hover:bg-red-500 rounded-full flex items-center justify-center transition-colors">
                 <i class="fas fa-times text-white text-sm"></i>
               </button>
@@ -811,15 +823,15 @@ tailwind.config = {
             </div>
             
             <!-- Upload Area -->
-            <div id="uploadArea" class="border-2 border-dashed border-white/20 rounded-xl p-8 text-center hover:border-primary/50 transition-colors cursor-pointer bg-white/5 hover:bg-white/10">
+            <div id="uploadArea" class="border-2 border-dashed border-gray-300 rounded-xl p-8 text-center hover:border-primary/50 transition-colors cursor-pointer bg-white/50 hover:bg-white/70">
               <input type="file" id="bannerImage" accept="image/*" class="hidden">
               <div class="space-y-4">
                 <div class="w-16 h-16 bg-primary/20 rounded-full flex items-center justify-center mx-auto">
                   <i class="fas fa-image text-primary text-2xl"></i>
                 </div>
                 <div>
-                  <p class="text-gray-300 font-medium mb-2">Upload Event Banner</p>
-                  <p class="text-gray-400 text-sm mb-4">Drag and drop an image here, or click to browse</p>
+                  <p class="text-gray-700 font-medium mb-2">Upload Event Banner</p>
+                  <p class="text-gray-600 text-sm mb-4">Drag and drop an image here, or click to browse</p>
                   <button type="button" id="chooseImageBtn" class="btn btn-secondary">
                     <i class="fas fa-upload mr-2"></i>Choose Image
                   </button>
@@ -834,25 +846,25 @@ tailwind.config = {
 
         <!-- Description -->
         <div class="space-y-2">
-          <label class="block text-sm font-medium text-gray-300">Description *</label>
+          <label class="block text-sm font-medium text-gray-700">Description *</label>
           <textarea id="desc" required rows="4"
-                    class="w-full p-4 rounded-xl bg-white/10 border border-white/20 backdrop-blur-sm focus:outline-none focus:border-primary focus:bg-white/15 transition-all duration-200 resize-none" 
+                    class="w-full p-4 rounded-xl bg-white/80 border border-gray-300 backdrop-blur-sm focus:outline-none focus:border-primary focus:bg-white/90 transition-all duration-200 resize-none text-gray-800" 
                     placeholder="Describe your event..."></textarea>
         </div>
 
         <!-- Capacity -->
         <div class="space-y-2">
-          <label class="block text-sm font-medium text-gray-300">Expected Attendees</label>
+          <label class="block text-sm font-medium text-gray-700">Expected Attendees</label>
           <input id="capacity" type="number" min="1" max="10000"
-                 class="w-full p-4 rounded-xl bg-white/10 border border-white/20 backdrop-blur-sm focus:outline-none focus:border-primary focus:bg-white/15 transition-all duration-200" 
+                 class="w-full p-4 rounded-xl bg-white/80 border border-gray-300 backdrop-blur-sm focus:outline-none focus:border-primary focus:bg-white/90 transition-all duration-200 text-gray-800" 
                  placeholder="Expected number of attendees">
         </div>
 
         <!-- Contact Info -->
         <div class="space-y-2">
-          <label class="block text-sm font-medium text-gray-300">Contact Email *</label>
+          <label class="block text-sm font-medium text-gray-700">Contact Email *</label>
           <input id="contact" type="email" required
-                 class="w-full p-4 rounded-xl bg-white/10 border border-white/20 backdrop-blur-sm focus:outline-none focus:border-primary focus:bg-white/15 transition-all duration-200" 
+                 class="w-full p-4 rounded-xl bg-white/80 border border-gray-300 backdrop-blur-sm focus:outline-none focus:border-primary focus:bg-white/90 transition-all duration-200 text-gray-800" 
                  placeholder="organizer@university.edu">
         </div>
 
@@ -861,7 +873,7 @@ tailwind.config = {
 
         <!-- Submit Button -->
         <button type="submit" 
-                class="w-full bg-gradient-to-r from-primary to-purple-600 py-4 rounded-xl font-semibold text-lg hover:shadow-2xl hover:shadow-primary/25 transition-all duration-300 transform hover:scale-[1.02] flex items-center justify-center">
+                class="w-full bg-gradient-to-r from-primary to-green-600 py-4 rounded-xl font-semibold text-lg text-white hover:shadow-2xl hover:shadow-primary/25 transition-all duration-300 transform hover:scale-[1.02] flex items-center justify-center"></button>
           <i class="fas fa-paper-plane mr-2"></i>
           <span id="submitText">Create Event</span>
           <div id="submitLoading" class="loading ml-2 hidden"></div>
@@ -874,32 +886,32 @@ tailwind.config = {
 
 
 <!-- ENHANCED LOGIN SECTION -->
-<section id="login" class="hidden min-h-screen bg-gradient-to-br from-slate-900 via-purple-900/20 to-slate-900 pt-28 px-6 flex justify-center items-center">
+<section id="login" class="hidden min-h-screen bg-gradient-to-br from-green-50 via-white to-green-100 pt-28 px-6 flex justify-center items-center">
   <div class="max-w-md w-full">
     <div class="glass-morphism p-10 rounded-3xl shadow-2xl">
       <div class="text-center mb-8">
-        <div class="w-16 h-16 bg-gradient-to-r from-primary to-purple-600 rounded-full flex items-center justify-center mx-auto mb-4">
+        <div class="w-16 h-16 bg-gradient-to-r from-primary to-green-600 rounded-full flex items-center justify-center mx-auto mb-4">
           <i class="fas fa-user text-white text-2xl"></i>
         </div>
-        <h2 class="text-3xl font-bold mb-2">Welcome Back</h2>
-        <p class="text-gray-300">Sign in to your CampusEvents account</p>
+        <h2 class="text-3xl font-bold mb-2 text-black">Welcome Back</h2>
+        <p class="text-black">Sign in to your CampusEvents account</p>
       </div>
 
       <form id="loginForm" class="space-y-6">
         <div class="space-y-2">
-          <label class="block text-sm font-medium text-gray-300">Email Address</label>
+          <label class="block text-sm font-medium text-gray-700">Email Address</label>
           <input id="loginEmail" type="email" required
-                 class="w-full p-4 rounded-xl bg-white/10 border border-white/20 backdrop-blur-sm focus:outline-none focus:border-primary focus:bg-white/15 transition-all duration-200" 
+                 class="w-full p-4 rounded-xl bg-white/80 border border-gray-300 backdrop-blur-sm focus:outline-none focus:border-primary focus:bg-white/90 transition-all duration-200 text-gray-800" 
                  placeholder="your.email@university.edu">
         </div>
 
         <div class="space-y-2">
-          <label class="block text-sm font-medium text-gray-300">Password</label>
+          <label class="block text-sm font-medium text-gray-700">Password</label>
           <div class="relative">
             <input id="loginPassword" type="password" required
-                   class="w-full p-4 rounded-xl bg-white/10 border border-white/20 backdrop-blur-sm focus:outline-none focus:border-primary focus:bg-white/15 transition-all duration-200 pr-12" 
+                   class="w-full p-4 rounded-xl bg-white/80 border border-gray-300 backdrop-blur-sm focus:outline-none focus:border-primary focus:bg-white/90 transition-all duration-200 pr-12 text-gray-800" 
                    placeholder="Enter your password">
-            <button type="button" id="togglePasswordBtn" class="absolute right-4 top-1/2 transform -translate-y-1/2 text-gray-400 hover:text-white">
+            <button type="button" id="togglePasswordBtn" class="absolute right-4 top-1/2 transform -translate-y-1/2 text-gray-500 hover:text-gray-700">
               <i class="fas fa-eye" id="passwordToggle"></i>
             </button>
           </div>
@@ -907,22 +919,22 @@ tailwind.config = {
 
         <div class="flex items-center justify-between">
           <label class="flex items-center">
-            <input type="checkbox" class="rounded bg-white/10 border-white/20 text-primary focus:ring-primary">
-            <span class="ml-2 text-sm text-gray-300">Remember me</span>
+            <input type="checkbox" class="rounded bg-white/80 border-gray-300 text-primary focus:ring-primary">
+            <span class="ml-2 text-sm text-gray-600">Remember me</span>
           </label>
-          <a href="#" class="text-sm text-primary hover:text-purple-400 transition-colors">Forgot password?</a>
+          <a href="#" class="text-sm text-primary hover:text-green-600 transition-colors">Forgot password?</a>
         </div>
 
         <button type="submit" 
-                class="w-full bg-gradient-to-r from-primary to-purple-600 py-4 rounded-xl font-semibold text-lg hover:shadow-2xl hover:shadow-primary/25 transition-all duration-300 transform hover:scale-[1.02]">
+                class="w-full bg-gradient-to-r from-primary to-green-600 py-4 rounded-xl font-semibold text-lg text-white hover:shadow-2xl hover:shadow-primary/25 transition-all duration-300 transform hover:scale-[1.02]">
           <i class="fas fa-sign-in-alt mr-2"></i>
           Sign In
         </button>
       </form>
 
       <div class="mt-8 text-center">
-        <p class="text-gray-400 mb-4">Don't have an account?</p>
-        <button id="showSignupBtn" class="text-primary hover:text-purple-400 font-medium transition-colors">
+        <p class="text-black mb-4">Don't have an account?</p>
+        <button id="showSignupBtn" class="text-primary hover:text-green-600 font-medium transition-colors">
           Create Account <i class="fas fa-arrow-right ml-1"></i>
         </button>
       </div>
@@ -931,18 +943,18 @@ tailwind.config = {
       <div class="mt-8">
         <div class="relative">
           <div class="absolute inset-0 flex items-center">
-            <div class="w-full border-t border-white/20"></div>
+            <div class="w-full border-t border-gray-300"></div>
           </div>
           <div class="relative flex justify-center text-sm">
-            <span class="px-2 bg-slate-900 text-gray-400">Or continue with</span>
+            <span class="px-2 bg-white text-black">Or continue with</span>
           </div>
         </div>
         
         <div class="mt-6 grid grid-cols-2 gap-3">
-          <button class="w-full inline-flex justify-center py-3 px-4 rounded-xl bg-white/10 hover:bg-white/20 transition-colors">
+          <button class="w-full inline-flex justify-center py-3 px-4 rounded-xl bg-white/80 hover:bg-white/90 transition-colors border border-gray-300 text-gray-700">
             <i class="fab fa-google text-xl"></i>
           </button>
-          <button class="w-full inline-flex justify-center py-3 px-4 rounded-xl bg-white/10 hover:bg-white/20 transition-colors">
+          <button class="w-full inline-flex justify-center py-3 px-4 rounded-xl bg-white/80 hover:bg-white/90 transition-colors border border-gray-300 text-gray-700">
             <i class="fab fa-microsoft text-xl"></i>
           </button>
         </div>
@@ -950,7 +962,7 @@ tailwind.config = {
       
       <!-- Debug Test Button (Remove in production) -->
       <div class="mt-4 text-center">
-        <button id="testConnectionBtn" class="text-xs text-gray-500 hover:text-gray-400 transition-colors">
+        <button id="testConnectionBtn" class="text-xs text-gray-500 hover:text-gray-600 transition-colors">
           Test Server Connection
         </button>
       </div>
@@ -959,13 +971,13 @@ tailwind.config = {
 </section>
 
 <!-- NEW PROFILE SECTION -->
-<section id="profile" class="hidden min-h-screen bg-gradient-to-br from-slate-900 via-purple-900/20 to-slate-900 pt-28 px-6">
+<section id="profile" class="hidden min-h-screen bg-gradient-to-br from-green-50 via-white to-green-100 pt-28 px-6">
   <div class="max-w-4xl mx-auto">
     <!-- Profile Header -->
     <div class="glass-morphism rounded-3xl p-8 mb-8" data-aos="fade-up">
       <div class="flex flex-col md:flex-row items-center gap-8">
         <div class="relative">
-          <div class="w-32 h-32 bg-gradient-to-r from-primary to-purple-600 rounded-full flex items-center justify-center text-4xl font-bold">
+          <div class="w-32 h-32 bg-gradient-to-r from-primary to-green-600 rounded-full flex items-center justify-center text-4xl font-bold text-white">
             JD
           </div>
           <button class="absolute bottom-0 right-0 w-10 h-10 bg-accent rounded-full flex items-center justify-center hover:scale-110 transition-transform">
@@ -974,8 +986,8 @@ tailwind.config = {
         </div>
         
         <div class="text-center md:text-left flex-1">
-          <h2 class="text-3xl font-bold mb-2">John Doe</h2>
-          <p class="text-gray-300 mb-4">Computer Science Student • Event Organizer</p>
+          <h2 class="text-3xl font-bold mb-2 text-black">John Doe</h2>
+          <p class="text-black mb-4">Computer Science Student • Event Organizer</p>
           <div class="flex flex-wrap gap-2 justify-center md:justify-start">
             <span class="badge badge-tech">
               <i class="fas fa-code mr-1"></i>Developer
@@ -1037,7 +1049,7 @@ tailwind.config = {
 
     <!-- Profile Content Tabs -->
     <div class="glass-morphism rounded-2xl p-6" data-aos="fade-up" data-aos-delay="200">
-      <div class="flex flex-wrap gap-4 mb-6 border-b border-white/20 pb-4">
+      <div class="flex flex-wrap gap-4 mb-6 border-b border-gray-300 pb-4">
         <button id="profileEventsTab" class="profile-tab active px-4 py-2 rounded-lg transition-colors">
           <i class="fas fa-calendar mr-2"></i>My Events
         </button>
@@ -1057,11 +1069,11 @@ tailwind.config = {
         <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
           <div class="card">
             <div class="flex items-center justify-between mb-4">
-              <h4 class="font-bold">AI Workshop Series</h4>
+              <h4 class="font-bold text-gray-800">AI Workshop Series</h4>
               <span class="badge badge-tech">Upcoming</span>
             </div>
-            <p class="text-gray-400 text-sm mb-3">3-day intensive workshop on machine learning</p>
-            <div class="flex items-center justify-between text-sm text-gray-300">
+            <p class="text-gray-600 text-sm mb-3">3-day intensive workshop on machine learning</p>
+            <div class="flex items-center justify-between text-sm text-gray-600">
               <span><i class="fas fa-users mr-1"></i>89/150 registered</span>
               <span><i class="fas fa-calendar mr-1"></i>Dec 28, 2024</span>
             </div>
@@ -1069,11 +1081,11 @@ tailwind.config = {
           
           <div class="card">
             <div class="flex items-center justify-between mb-4">
-              <h4 class="font-bold">Tech Meetup</h4>
+              <h4 class="font-bold text-gray-800">Tech Meetup</h4>
               <span class="badge badge-cultural">Completed</span>
             </div>
-            <p class="text-gray-400 text-sm mb-3">Monthly networking event for developers</p>
-            <div class="flex items-center justify-between text-sm text-gray-300">
+            <p class="text-gray-600 text-sm mb-3">Monthly networking event for developers</p>
+            <div class="flex items-center justify-between text-sm text-gray-600">
               <span><i class="fas fa-star mr-1"></i>4.8 rating</span>
               <span><i class="fas fa-calendar mr-1"></i>Nov 15, 2024</span>
             </div>
@@ -1084,33 +1096,33 @@ tailwind.config = {
       <!-- Recent Activity Tab -->
       <div id="profile-activity" class="profile-tab-content hidden">
         <div class="space-y-4">
-          <div class="flex items-center space-x-4 p-4 bg-white/5 rounded-lg">
+          <div class="flex items-center space-x-4 p-4 bg-white/50 rounded-lg">
             <div class="w-10 h-10 bg-green-500/20 rounded-full flex items-center justify-center">
-              <i class="fas fa-plus text-green-400"></i>
+              <i class="fas fa-plus text-green-600"></i>
             </div>
             <div class="flex-1">
-              <p class="font-medium">Created "AI Workshop Series"</p>
-              <p class="text-gray-400 text-sm">2 hours ago</p>
+              <p class="font-medium text-gray-800">Created "AI Workshop Series"</p>
+              <p class="text-gray-600 text-sm">2 hours ago</p>
             </div>
           </div>
           
-          <div class="flex items-center space-x-4 p-4 bg-white/5 rounded-lg">
+          <div class="flex items-center space-x-4 p-4 bg-white/50 rounded-lg">
             <div class="w-10 h-10 bg-blue-500/20 rounded-full flex items-center justify-center">
-              <i class="fas fa-ticket-alt text-blue-400"></i>
+              <i class="fas fa-ticket-alt text-blue-600"></i>
             </div>
             <div class="flex-1">
-              <p class="font-medium">Registered for "Startup Pitch Competition"</p>
-              <p class="text-gray-400 text-sm">1 day ago</p>
+              <p class="font-medium text-gray-800">Registered for "Startup Pitch Competition"</p>
+              <p class="text-gray-600 text-sm">1 day ago</p>
             </div>
           </div>
           
-          <div class="flex items-center space-x-4 p-4 bg-white/5 rounded-lg">
+          <div class="flex items-center space-x-4 p-4 bg-white/50 rounded-lg">
             <div class="w-10 h-10 bg-purple-500/20 rounded-full flex items-center justify-center">
-              <i class="fas fa-star text-purple-400"></i>
+              <i class="fas fa-star text-purple-600"></i>
             </div>
             <div class="flex-1">
-              <p class="font-medium">Received 5-star review for "Tech Meetup"</p>
-              <p class="text-gray-400 text-sm">3 days ago</p>
+              <p class="font-medium text-gray-800">Received 5-star review for "Tech Meetup"</p>
+              <p class="text-gray-600 text-sm">3 days ago</p>
             </div>
           </div>
         </div>
@@ -1204,19 +1216,19 @@ tailwind.config = {
 </section>
 
 <!-- NEW SETTINGS SECTION -->
-<section id="settings" class="hidden min-h-screen bg-gradient-to-br from-slate-900 via-purple-900/20 to-slate-900 pt-28 px-6">
+<section id="settings" class="hidden min-h-screen bg-gradient-to-br from-green-50 via-white to-green-100 pt-28 px-6">
   <div class="max-w-4xl mx-auto">
     <!-- Settings Header -->
     <div class="text-center mb-12" data-aos="fade-up">
       <h2 class="text-4xl font-bold mb-4">
         <span class="gradient-text">Account</span> Settings
       </h2>
-      <p class="text-gray-300 text-lg">Manage your preferences and account information</p>
+      <p class="text-black text-lg">Manage your preferences and account information</p>
     </div>
 
     <!-- Settings Navigation -->
     <div class="glass-morphism rounded-2xl p-6 mb-8" data-aos="fade-up" data-aos-delay="100">
-      <div class="flex flex-wrap gap-4 border-b border-white/20 pb-4 mb-6">
+      <div class="flex flex-wrap gap-4 border-b border-gray-300 pb-4 mb-6">
         <button id="settingsGeneralTab" class="settings-tab active px-4 py-2 rounded-lg transition-colors">
           <i class="fas fa-user mr-2"></i>General
         </button>
@@ -2144,6 +2156,7 @@ function renderEvents() {
   }
   
   filteredEvents.forEach((event, index) => {
+    console.log('Rendering event:', event.name); // Debug log
     const eventCard = document.createElement('div');
     eventCard.className = 'event-card rounded-2xl p-6 hover-lift';
     eventCard.setAttribute('data-aos', 'fade-up');
@@ -2169,47 +2182,47 @@ function renderEvents() {
       </div>
       
       <div class="space-y-3">
-        <h3 class="text-xl font-bold text-white hover:text-primary transition-colors cursor-pointer">${event.name}</h3>
+        <h3 class="text-xl font-bold text-black hover:text-primary transition-colors cursor-pointer" style="color: #000000 !important; font-weight: bold !important; display: block !important;">${event.name}</h3>
         
-        <div class="flex items-center justify-between text-sm text-gray-300">
+        <div class="flex items-center justify-between text-sm text-black">
           <div class="flex items-center space-x-4">
             <span><i class="fas fa-calendar mr-1 text-primary"></i>${formatDate(event.date)}</span>
             <span><i class="fas fa-clock mr-1 text-primary"></i>${event.time}</span>
           </div>
         </div>
         
-        <div class="flex items-center text-sm text-gray-300">
+        <div class="flex items-center text-sm text-black">
           <i class="fas fa-map-marker-alt mr-2 text-primary"></i>
           <span>${event.venue}</span>
         </div>
         
-        <p class="text-gray-400 text-sm line-clamp-2">${event.desc}</p>
+        <p class="text-black text-sm line-clamp-2">${event.desc}</p>
         
         <div class="space-y-2">
           <div class="flex items-center justify-between text-sm">
-            <span class="text-gray-300">
+            <span class="text-black">
               <i class="fas fa-users mr-1"></i>
               ${event.registered}/${event.capacity} registered
             </span>
-            <span class="text-gray-400">by ${event.organizer}</span>
+            <span class="text-black">by ${event.organizer}</span>
           </div>
           
-          <div class="w-full bg-gray-700 rounded-full h-2">
-            <div class="bg-gradient-to-r from-primary to-purple-600 h-2 rounded-full transition-all duration-300" 
+          <div class="w-full bg-gray-300 rounded-full h-2">
+            <div class="bg-gradient-to-r from-primary to-green-600 h-2 rounded-full transition-all duration-300" 
                  style="width: ${registrationPercentage}%"></div>
           </div>
           
-          ${isAlmostFull ? '<div class="text-orange-400 text-xs flex items-center"><i class="fas fa-exclamation-triangle mr-1"></i>Almost Full!</div>' : ''}
+          ${isAlmostFull ? '<div class="text-orange-600 text-xs flex items-center"><i class="fas fa-exclamation-triangle mr-1"></i>Almost Full!</div>' : ''}
         </div>
         
         <div class="flex gap-2 pt-2">
-          <button data-event-name="${event.name}" class="register-event-btn flex-1 bg-gradient-to-r from-primary to-purple-600 hover:from-purple-600 hover:to-pink-500 py-2 px-4 rounded-lg font-medium transition-all duration-300 hover:scale-105 ${isAlmostFull ? 'animate-pulse' : ''}">
+          <button data-event-name="${event.name}" class="register-event-btn flex-1 bg-gradient-to-r from-primary to-green-600 hover:from-green-600 hover:to-green-700 py-2 px-4 rounded-lg font-medium transition-all duration-300 hover:scale-105 text-white ${isAlmostFull ? 'animate-pulse' : ''}">
             <i class="fas fa-ticket-alt mr-2"></i>Register
           </button>
-          <button data-event-name="${event.name}" class="share-event-btn px-4 py-2 glass-morphism hover:bg-white/20 rounded-lg transition-colors">
+          <button data-event-name="${event.name}" class="share-event-btn px-4 py-2 glass-morphism hover:bg-white/30 rounded-lg transition-colors text-black">
             <i class="fas fa-share-alt"></i>
           </button>
-          <button data-event-name="${event.name}" class="add-to-calendar-btn px-4 py-2 glass-morphism hover:bg-white/20 rounded-lg transition-colors">
+          <button data-event-name="${event.name}" class="add-to-calendar-btn px-4 py-2 glass-morphism hover:bg-white/30 rounded-lg transition-colors text-black">
             <i class="fas fa-calendar-plus"></i>
           </button>
         </div>
@@ -2276,7 +2289,7 @@ function filterEvents(category) {
   
   // Update active filter button
   document.querySelectorAll('.filter-btn').forEach(btn => {
-    btn.classList.remove('active', 'bg-gradient-to-r', 'from-primary', 'to-purple-600');
+    btn.classList.remove('active', 'bg-gradient-to-r', 'from-primary', 'to-green-600');
     btn.classList.add('glass-morphism');
   });
   
@@ -2285,7 +2298,7 @@ function filterEvents(category) {
                    document.getElementById('filterAllBtn');
   
   if (activeBtn) {
-    activeBtn.classList.add('active', 'bg-gradient-to-r', 'from-primary', 'to-purple-600');
+    activeBtn.classList.add('active', 'bg-gradient-to-r', 'from-primary', 'to-green-600');
     activeBtn.classList.remove('glass-morphism');
   }
   
@@ -3927,68 +3940,9 @@ try {
 } catch (error) {
   console.error('❌ Failed to initialize events/stats:', error);
 }
-</script>
 
-// Make functions globally available for debugging and event listeners
-window.show = show;
-window.toggleUserMenu = toggleUserMenu;
-window.toggleMobileMenu = toggleMobileMenu;
-window.scrollToSection = scrollToSection;
-window.testNavbar = testNavbar;
-window.filterEvents = filterEvents;
-window.toggleViewMode = toggleViewMode;
-window.loadMoreEvents = loadMoreEvents;
-window.addEvent = addEvent;
-window.handleLogin = handleLogin;
-window.handleImageUpload = handleImageUpload;
-window.removeImage = removeImage;
-window.togglePassword = togglePassword;
-window.showSignup = showSignup;
-window.testConnection = testConnection;
-window.showProfileTab = showProfileTab;
-window.showSettingsTab = showSettingsTab;
-window.registerForEvent = registerForEvent;
-window.shareEvent = shareEvent;
-window.addToCalendar = addToCalendar;
 
-console.log('✅ All functions made globally available');
-console.log('📱 Navigation JavaScript loaded successfully');
 
-// Test function for debugging navbar
-function testNavbar() {
-  console.log('🧪 Testing navbar functionality...');
-  
-  // Test if elements exist
-  const elements = [
-    'homeBtn', 'eventsBtn', 'createBtn', 'aboutBtn', 'accountBtn',
-    'mobileMenuBtn', 'loginBtn', 'profileBtn', 'settingsBtn'
-  ];
-  
-  elements.forEach(id => {
-    const element = document.getElementById(id);
-    if (element) {
-      console.log(`✅ ${id} found`);
-    } else {
-      console.error(`❌ ${id} NOT found`);
-    }
-  });
-  
-  // Test if functions exist
-  const functions = ['show', 'scrollToSection', 'toggleUserMenu', 'toggleMobileMenu'];
-  functions.forEach(funcName => {
-    if (typeof window[funcName] === 'function') {
-      console.log(`✅ ${funcName} function available`);
-    } else {
-      console.error(`❌ ${funcName} function NOT available`);
-    }
-  });
-  
-  console.log('🧪 Navbar test completed. Check above for any issues.');
-  return 'Test completed - check console for results';
-}
-
-// Make test function globally available
-window.testNavbar = testNavbar;
 </script>
 
 </body>

@@ -472,6 +472,18 @@ p {
   transform: scale(1.1);
 }
 
+/* Event Name Visibility Fix */
+.event-card h3 {
+  color: #000000 !important;
+  font-weight: bold !important;
+  font-size: 1.25rem !important;
+  line-height: 1.75rem !important;
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  margin-bottom: 0.75rem !important;
+}
+
 /* Professional Badge Styles */
 .badge {
   display: inline-flex;
